@@ -58,7 +58,7 @@ public:
                     return -1;
                 //cout<<grid[i][j]<<" ";
             }
-            cout<<endl;
+        
         }
         
         return time;
