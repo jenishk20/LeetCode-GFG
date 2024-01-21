@@ -26,7 +26,6 @@ public:
                 if(nx>=0 and ny>=0 and nx<n and ny<m and !vis[nx][ny]
                   and image[nx][ny]==prev){
                     vis[nx][ny] = 1;
-                    cout<<nx<<" "<<ny<<endl;
                     q.push({nx,ny});
                 }
             }
