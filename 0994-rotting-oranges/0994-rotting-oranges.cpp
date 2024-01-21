@@ -49,15 +49,7 @@ public:
                 }
             }
         }
-        for(i=0;i<r;i++)
-        {
-            for(j=0;j<c;j++)
-            {
-                cout<<dis[i][j]<<" ";
-            }
-            cout<<endl;
-        }
-        cout<<endl;
+    
         for(i=0;i<r;i++)
         {
             for(j=0;j<c;j++)
