@@ -19,13 +19,7 @@ public:
             meet[u].push_back({v,time});
             meet[v].push_back({u,time});
         }
-        
-        for(i=0;i<n;i++){
-            cout<<i<<endl;
-            for(auto it:meet[i]){
-                cout<<it.first<<" "<<it.second<<endl;
-            }
-        }
+     
         
         vector<int>vis(n+1,0);
 
@@ -41,7 +35,6 @@ public:
             vis[person] = 1;
             for(auto i:meet[person]){
                 if(!vis[i.first] && currTime<=i.second){
-                   
                     pq.push({i.second,i.first});
                 }
             }
