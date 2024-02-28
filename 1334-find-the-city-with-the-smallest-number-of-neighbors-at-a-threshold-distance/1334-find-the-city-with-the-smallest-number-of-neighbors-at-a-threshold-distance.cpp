@@ -28,13 +28,7 @@ public:
             }
         }
         
-        for(i=0;i<n;i++){
-            for(j=0;j<n;j++){
-                cout<<matrix[i][j]<<" ";
-            }
-            cout<<endl;
-        }
-        
+
         map<int,int>ma;
         int mini = INT_MAX;
         for(i=0;i<n;i++){
@@ -48,10 +42,10 @@ public:
             mini = min(mini,cnt);
         }
         
-        cout<<mini<<endl;
+        
         int ans = 0;
         for(auto it:ma){
-            cout<<it.first<<" "<<it.second<<endl;
+            
             if(it.second == mini){
                 ans = max(it.first,ans);
             }
