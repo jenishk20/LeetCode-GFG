@@ -15,6 +15,21 @@ public:
         
         int n = nums.size();
         vector<int>dp(n,-1);
-        return recur(n-1,nums,dp);
+        
+        dp[0] = nums[0];
+        
+        for(int i=1;i<n;i++){
+            
+            int op1 = (i>=2)?dp[i-2] + nums[i]:nums[i];
+            int op2 = dp[i-1];
+            
+            dp[i] = max(op1,op2);
+        }
+        return dp[n-1];
+        
+        
+        
+        
+//         return recur(n-1,nums,dp);
     }
 };
