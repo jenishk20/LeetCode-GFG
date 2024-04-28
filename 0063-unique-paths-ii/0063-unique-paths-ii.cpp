@@ -88,6 +88,50 @@
 
 */
 
+// class Solution {
+// public:
+
+//     int uniquePathsWithObstacles(vector<vector<int>>& obstacleGrid) {
+        
+//         int n = obstacleGrid.size();
+//         int m = obstacleGrid[0].size();
+        
+//         vector<vector<int>>dp(n,vector<int>(m,0));
+        
+//         for(int i=0;i<n;i++){
+//             for(int j=0;j<m;j++){
+                
+//                 if(i==0 && j==0 && obstacleGrid[i][j]==0){
+//                     dp[i][j] = 1;
+//                     continue;
+//                 }
+                
+//                 if(obstacleGrid[i][j]==0){
+                    
+//                     int op1 = 0,op2 = 0;
+                    
+//                     if(i-1>=0) op1 = dp[i-1][j];
+//                     if(j-1>=0) op2 = dp[i][j-1];
+                    
+//                     dp[i][j] = op1 + op2;
+//                 }
+//             }
+//         }
+        
+//         return dp[n-1][m-1];
+//     }
+// };
+
+
+
+/*
+    Space Optimal :
+    
+    TC : O (n*m)
+    SC : O (m) 
+
+*/
+
 class Solution {
 public:
 
@@ -96,13 +140,15 @@ public:
         int n = obstacleGrid.size();
         int m = obstacleGrid[0].size();
         
-        vector<vector<int>>dp(n,vector<int>(m,0));
+        vector<int>prev(m,0);
         
         for(int i=0;i<n;i++){
+            
+            vector<int>temp(m,0);
             for(int j=0;j<m;j++){
                 
                 if(i==0 && j==0 && obstacleGrid[i][j]==0){
-                    dp[i][j] = 1;
+                    temp[j] = 1;
                     continue;
                 }
                 
@@ -110,14 +156,15 @@ public:
                     
                     int op1 = 0,op2 = 0;
                     
-                    if(i-1>=0) op1 = dp[i-1][j];
-                    if(j-1>=0) op2 = dp[i][j-1];
+                    if(i-1>=0) op1 = prev[j];
+                    if(j-1>=0) op2 = temp[j-1];
                     
-                    dp[i][j] = op1 + op2;
+                    temp[j] = op1 + op2;
                 }
             }
+            prev = temp;
         }
         
-        return dp[n-1][m-1];
+        return prev[m-1];
     }
 };
