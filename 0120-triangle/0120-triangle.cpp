@@ -18,23 +18,39 @@ public:
         
         // memset(dp,-1,sizeof dp);
         
+        vector<int>next(n+1,0);
+        
         for(int i=n-1;i>=0;i--){
             
-            for(int j=0;j<triangle[i].size();j++){
+            vector<int>curr(n);
+            
+            for(auto i : next)
+                cout<<i<<" ";
+            cout<<endl;
+            
+            for(int j=i;j>=0;j--){
                 
                 if(i==n-1){
-                    dp[i][j] = triangle[i][j];
+                    curr[j] = triangle[i][j];
                     continue;
                 }
                 
-                int op1 = triangle[i][j] + dp[i+1][j];
-                int op2 = triangle[i][j] + dp[i+1][j+1];
+                int op1 = triangle[i][j] + next[j];
+                int op2 = triangle[i][j] + next[j+1];
                 
-                dp[i][j] = min(op1,op2);
+                curr[j] = min(op1,op2);
         
             }
+            
+
+            next = curr;
+            
+            for(auto i : next)
+                cout<<i<<" ";
+            cout<<endl;
+            
         }
         
-        return dp[0][0];
+        return next[0];
     }
 };
