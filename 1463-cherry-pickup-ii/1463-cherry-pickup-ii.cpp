@@ -1,49 +1,70 @@
 class Solution {
 public:
-    int dp[101][101][101];
-    int recur(int i,int j1,int j2,vector<vector<int>>&grid,int n,int m){
-        
-        if(j1<0 || j1>=m || j2<0 || j2>=m) return -1e8;
-        
-        if(i==n-1){
-            
-            if(j1==j2) return grid[i][j1];
-            
-            return grid[i][j1] + grid[i][j2];
-        }
-        
-        if(dp[i][j1][j2]!=-1) return dp[i][j1][j2];
-        
-        int maxCherries = 0;
-        
-        for(int dx = -1;dx<=1;dx++){
-            for(int dy = -1;dy<=1;dy++){
-                
-                int newPosX = j1 + dx;
-                int newPosY = j2 + dy;
-                
-               
-                int op1 = 0;
-                
-                if(j1==j2){
-                    op1 = grid[i][j1] + recur(i+1,newPosX,newPosY,grid,n,m);    
-                }
-                else{
-                    op1 = grid[i][j1] + grid[i][j2] + recur(i+1,newPosX,newPosY,grid,n,m);  
-                }
-                
-                maxCherries = max(maxCherries,op1);
-            }
-        }
-        return dp[i][j1][j2] = maxCherries;
-        
-    }
+
     int cherryPickup(vector<vector<int>>& grid) {
         
         int n = grid.size();
         int m = grid[0].size();
+        int dp[101][101][101];
         memset(dp,-1,sizeof dp);
         
-        return recur(0,0,m-1,grid,n,m);
+        int i,j,k;
+        
+        for(i=0;i<m;i++){
+            for(j=0;j<m;j++){
+                
+                
+            }
+        }
+        
+        
+        for(i=n-1;i>=0;i--){
+            for(j=0;j<m;j++){
+                for(k=0;k<m;k++){
+                    
+                    if(i==n-1){
+                        
+                        if(j==k) dp[i][j][k] = grid[i][j];
+                        
+                        else dp[i][j][k] = grid[i][j] + grid[i][k];
+                        
+                        continue;
+                    }
+                    
+                    int maxCherries = 0;
+        
+                    for(int dx = -1;dx<=1;dx++){
+                        for(int dy = -1;dy<=1;dy++){
+
+                            int newPosX = j + dx;
+                            int newPosY = k + dy;
+
+                            int op1 = 0;
+                            
+                            if(newPosX>=0 and newPosY>=0 and newPosX<m and newPosY<m)                             {
+                                if(j==k){
+                                op1 = grid[i][j] + dp[i+1][newPosX][newPosY];
+                                }
+                                else{
+
+                                op1 = grid[i][j] + grid[i][k] + dp[i+1][newPosX][newPosY];
+                                }
+
+                            }
+                            
+                            maxCherries = max(maxCherries,op1);
+                        }
+        }
+                    
+                    dp[i][j][k] = maxCherries;
+                    
+                    
+                }
+            }
+        }
+        
+     
+       return dp[0][0][m-1];
+       
     }
 };
