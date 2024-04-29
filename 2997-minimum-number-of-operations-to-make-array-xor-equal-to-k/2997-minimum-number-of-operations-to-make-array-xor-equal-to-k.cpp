@@ -15,7 +15,7 @@ public:
             }
             
             if(xori != 0) cnt++;
-            cout<<xori<<endl;
+       
         }
         return cnt;
     }
