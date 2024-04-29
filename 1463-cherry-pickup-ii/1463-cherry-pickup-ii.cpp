@@ -9,15 +9,7 @@ public:
         memset(dp,-1,sizeof dp);
         
         int i,j,k;
-        
-        for(i=0;i<m;i++){
-            for(j=0;j<m;j++){
-                
-                
-            }
-        }
-        
-        
+
         for(i=n-1;i>=0;i--){
             for(j=0;j<m;j++){
                 for(k=0;k<m;k++){
