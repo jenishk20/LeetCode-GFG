@@ -1,70 +1,61 @@
 class Solution {
+    
+private:
+    vector<int>countOfChild,result;
 public:
-    void dfs(vector<int>graph[],int node,vector<int>&vis,vector<int>&subtree)
-    {
-        vis[node]=1;
-        for(auto i:graph[node])
-        {
-            if(!vis[i])
-            {
-                dfs(graph,i,vis,subtree);
-                subtree[node]+=subtree[i];
-            }
+    
+    void dfs(int node,vector<int>graph[],int par = -1){
+        
+        for(auto it : graph[node]){
+            if(it == par) continue;
+            
+            dfs(it,graph,node);
+            
+            countOfChild[node] += countOfChild[it];
+            result[node] += result[it] + countOfChild[it];
         }
+        
+        countOfChild[node]+=1;
     }
-    void dfs(int node,int sum,vector<int>&vis,vector<int>&ans,vector<int>graph[],vector<int>&subtree)
-    {
-        ans[node]=sum;
-        vis[node]=1;
-        int n=vis.size();
-        for(auto i:graph[node])
-        {
-            if(!vis[i]){
-            int tt=sum+(n-subtree[i])-(subtree[i]);
-           // cout<<i<<" "<<tt<<endl;
-            dfs(i,tt,vis,ans,graph,subtree);
-            }
+    
+        
+    void dfs2(int node,vector<int>graph[],int n,int par = -1){
+        
+        for(auto it : graph[node]){
+            if(it == par) continue;
+            
+            result[it] = result[node] - countOfChild[it] + (n-countOfChild[it]);
+            dfs2(it,graph,n,node);
         }
+       
     }
     vector<int> sumOfDistancesInTree(int n, vector<vector<int>>& edges) {
-        vector<int>subtree(n,1),ans(n,0);
+        
         vector<int>graph[n+1];
-        int i;
-        for(auto i:edges)
-        {
-            graph[i[0]].push_back(i[1]);
-            graph[i[1]].push_back(i[0]);
-        }
-        vector<int>vis(n,0);
-        dfs(graph,0,vis,subtree);
         
-        queue<int>q;
-        q.push(0);
-        vector<int>dis(n,INT_MAX);
-        int sum=0;
-        dis[0]=0;
-        while(!q.empty())
-        {
-            int curr=q.front();
-            q.pop();
-            for(auto i:graph[curr])
-            {
-                if(dis[i]>dis[curr]+1)
-                {
-                    dis[i]=dis[curr]+1;
-                    q.push(i);
-                }
-            }
-        }
-        for(i=0;i<n;i++){
-            sum+=dis[i];
-            vis[i]=0;
+        for(auto it : edges){
+            
+            int u = it[0];
+            int v = it[1];
+            
+            graph[u].push_back(v);
+            graph[v].push_back(u);
         }
         
-        dfs(0,sum,vis,ans,graph,subtree);
-        // cout<<sum<<endl;
+        countOfChild.resize(n,0);
+        result.resize(n,0);
         
-        return ans;
+        dfs(0,graph);
+        
+        for(int i=0;i<n;i++){
+            cout<<countOfChild[i]<<" ";
+        }
+        
+        cout<<result[0]<<endl;
+        
+        dfs2(0,graph,n);
+        
+        return result;
         
     }
 };
