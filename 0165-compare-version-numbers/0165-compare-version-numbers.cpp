@@ -19,8 +19,7 @@ public:
                     i++;
                     continue;
                 }
-                s1+=version1[i];
-                i++;
+                s1+=version1[i++];
             }
             
             while(j<m and version2[j]!='.'){
