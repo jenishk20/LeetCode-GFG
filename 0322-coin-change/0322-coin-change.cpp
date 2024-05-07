@@ -24,8 +24,37 @@ public:
     int coinChange(vector<int>& coins, int amount) {
         
         int n = coins.size();
-        memset(dp,-1,sizeof dp);
-        int ans = recur(n-1,coins,amount);
-        return ans == 1e9 ? -1 : ans;
+        // memset(dp,-1,sizeof dp);
+        
+        int i,j;
+        
+        for(i=0;i<n;i++){
+            for(j=0;j<=amount;j++){
+                
+                if(i==0){
+                    if(j%coins[i]==0){
+                        dp[i][j] = j/coins[i];
+                    }
+                    else{
+                        dp[i][j] = 1e9;
+                    }
+                }
+                else{
+                    
+                    int op1 = dp[i-1][j];
+                    int op2 = 1e9;
+                    
+                    if(j>=coins[i]){
+                        op2 = 1 + dp[i][j-coins[i]];
+                    }
+                    
+                    dp[i][j] = min(op1,op2);
+                }
+            }
+        }
+        
+        return dp[n-1][amount] == 1e9 ? -1 : dp[n-1][amount];
+        // int ans = recur(n-1,coins,amount);
+        // return ans == 1e9 ? -1 : ans;
     }
 };
