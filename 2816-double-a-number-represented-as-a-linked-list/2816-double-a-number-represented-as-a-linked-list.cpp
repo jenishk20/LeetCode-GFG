@@ -35,7 +35,7 @@ public:
             int val = 2 * temp->val + currentCarry;
             currentCarry = val/10;
             temp->val = val%10;
-            cout<<currentCarry<<" "<<temp->val<<endl;
+        
             if(temp->next == NULL){
                 if(currentCarry){
                     temp->next = new ListNode(currentCarry);
