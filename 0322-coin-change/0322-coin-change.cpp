@@ -26,34 +26,39 @@ public:
         int n = coins.size();
         // memset(dp,-1,sizeof dp);
         
+        vector<int>prev(amount+1);
+        
         int i,j;
         
         for(i=0;i<n;i++){
+            
+            vector<int>curr(amount+1);
             for(j=0;j<=amount;j++){
                 
                 if(i==0){
                     if(j%coins[i]==0){
-                        dp[i][j] = j/coins[i];
+                        curr[j] = j/coins[i];
                     }
                     else{
-                        dp[i][j] = 1e9;
+                        curr[j] = 1e9;
                     }
                 }
                 else{
                     
-                    int op1 = dp[i-1][j];
+                    int op1 = prev[j];
                     int op2 = 1e9;
                     
                     if(j>=coins[i]){
-                        op2 = 1 + dp[i][j-coins[i]];
+                        op2 = 1 + curr[j-coins[i]];
                     }
                     
-                    dp[i][j] = min(op1,op2);
+                    curr[j] = min(op1,op2);
                 }
             }
+            prev = curr;
         }
         
-        return dp[n-1][amount] == 1e9 ? -1 : dp[n-1][amount];
+        return prev[amount] == 1e9 ? -1 : prev[amount];
         // int ans = recur(n-1,coins,amount);
         // return ans == 1e9 ? -1 : ans;
     }
