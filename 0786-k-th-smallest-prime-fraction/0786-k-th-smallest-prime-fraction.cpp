@@ -12,7 +12,6 @@ public:
         
         for(j=1;j<n;j++){
             
-            cout<<arr[i]<<" "<<arr[j]<<" "<<mid<<" "<<cnt<<endl;
             while(i<j and arr[i] <= mid*arr[j]){
                 i++;
             }
@@ -39,7 +38,7 @@ public:
             int cnt = 0;
             
             vector<int>res = findNoSmallerThanMid(mid,arr,k);
-            cout<<res[0]<<endl;
+    
             if(res[0] == k){
                 return {res[1],res[2]};
             }
