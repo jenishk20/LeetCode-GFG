@@ -1,7 +1,7 @@
 class Solution {
 public:
     int dp[1001][1001];
-    int recur(int i,int j,string s,string t){
+    int recur(int i,int j,string &s,string &t){
         
         if(j<0){
             return 1;
