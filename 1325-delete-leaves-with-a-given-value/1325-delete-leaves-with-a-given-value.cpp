@@ -45,14 +45,14 @@ public:
         
         bool left = recur(root->left,target);
         bool right = recur(root->right,target);
-        // cout<<"Inside\n";
+
         if(left) root->left = NULL;
         if(right) root->right = NULL;
-        cout<<root->val<<" "<<left<<" "<<right<<endl;
+      
         if(left and !root->right) {
             return root->val == target;
         }
-        else if(right and !root->left){
+        if(right and !root->left){
             return root->val == target;
         }
         
