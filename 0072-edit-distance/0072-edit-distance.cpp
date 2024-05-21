@@ -2,16 +2,14 @@ class Solution {
 public:
     int dp[1001][1001];
     int recur(int i,int j,string &s,string &t){
+
+        if(i<=0) return j;
         
-        if(i<0 and j<0) return 0;
-        
-        if(i<0) return j+1;
-        
-        if(j<0) return i+1;
+        if(j<=0) return i;
         
         if(dp[i][j]!=-1) return dp[i][j];
         
-        if(s[i]==t[j]){
+        if(s[i-1]==t[j-1]){
             return recur(i-1,j-1,s,t);
         }
         else{
@@ -29,6 +27,15 @@ public:
         int m = word2.size();
         
         memset(dp,-1,sizeof dp);
-        return recur(n-1,m-1,word1,word2);
+        
+        int i,j;
+        
+        
+        
+        
+        
+        
+        
+        return recur(n,m,word1,word2);
     }
 };
