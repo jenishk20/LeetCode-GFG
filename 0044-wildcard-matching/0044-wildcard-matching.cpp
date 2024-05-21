@@ -27,14 +27,12 @@ public:
         int n = s.size();
         int m = p.size();
         
-        // memset(dp,-1,sizeof dp);
+        vector<int>curr(m+1),prev(m+1);
         
         int i,j;
         
-        dp[0][0] = 1;
-        
-        for(i=1;i<=n;i++) dp[i][0] = 0;
-        
+        prev[0] = 1;
+    
         for(j=1;j<=m;j++){
             bool be = true;
               for(int k=1;k<=j;k++){
@@ -43,24 +41,27 @@ public:
                     // dp[0][j] = 0;
                 }
             }
-            dp[0][j] = be;
+            prev[j] = be;
         }
         
         for(i=1;i<=n;i++){
+            curr[0] = 0;
+            
             for(j=1;j<=m;j++){
                 if(s[i-1] == p[j-1] || p[j-1] == '?'){
-                    dp[i][j] = dp[i-1][j-1];
+                    curr[j] = prev[j-1];
                 }
                 else if(p[j-1]=='*'){
-                    dp[i][j] = dp[i-1][j] || dp[i][j-1];
+                    curr[j] = prev[j] || curr[j-1];
                 }
                 else{
-                    dp[i][j] = 0;
+                    curr[j] = 0;
                 }
             }
+            prev = curr;
         }
         
         
-        return dp[n][m];
+        return prev[m];
     }
 };
