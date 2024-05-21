@@ -26,35 +26,33 @@ public:
         int n = word1.size();
         int m = word2.size();
         
-        // memset(dp,-1,sizeof dp);
+        vector<int>curr(m+1,0),prev(m+1);
+        
         
         int i,j;
-        
-        
-        for(i=0;i<=m;i++) dp[0][i] = i;
-        for(j=0;j<=n;j++) dp[j][0] = j;
-        dp[0][0] = 0;
+
+        for(j=0;j<=m;j++) prev[j] = j;
+
         
         for(i=1;i<=n;i++){
+            curr[0] = i;
             for(j=1;j<=m;j++){
                 
                 if(word1[i-1]==word2[j-1]){
-                    dp[i][j] = dp[i-1][j-1];
+                    curr[j] = prev[j-1];
                 }
                 else{
                     
-                    int op1 = 1 + dp[i][j-1]; //Insert
-                    int op2 = 1 + dp[i-1][j]; // Delete
-                    int op3 = 1 + dp[i-1][j-1]; // Replace
+                    int op1 = 1 + curr[j-1]; //Insert
+                    int op2 = 1 + prev[j]; // Delete
+                    int op3 = 1 + prev[j-1]; // Replace
 
-                    dp[i][j] = min({op1,op2,op3});
+                    curr[j] = min({op1,op2,op3});
                 }
             }
+            prev = curr;
         }
         
-        
-        
-        
-        return dp[n][m];
+        return prev[m];
     }
 };
