@@ -22,9 +22,26 @@ public:
     int maxProfit(int k, vector<int>& prices) {
                 
         int n = prices.size();
-        memset(dp,-1,sizeof dp);
+        memset(dp,0,sizeof dp);
         
-        return recur(0,k,0,prices,n);
+        int i,j;
+        
+        for(i=n-1;i>=0;i--){
+            for(int t = 2*k-1;t>=0;t--){
+                if(t%2==0){
+                    int op1 = -prices[i] + dp[i+1][t+1];
+                    int op2 = dp[i+1][t];
+                    dp[i][t] = max(op1,op2);
+                }
+                else{
+                    int op1 = +prices[i] + dp[i+1][t+1];
+                    int op2 = dp[i+1][t];
+                    dp[i][t] = max(op1,op2); 
+                }
+            }
+        }
+        
+        return dp[0][0];
         
         
     }
