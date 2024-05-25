@@ -13,9 +13,7 @@ public:
     
     int getScore(string word,map<char,int>&scoreMap){
         int ans =0;
-        cout<<"Inside Score Map function "<<word<<endl;
         for(auto it : word){
-            cout<<it<<" "<<scoreMap[it]<<endl;
             ans+=scoreMap[it];
         }
         return ans;
