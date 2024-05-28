@@ -10,10 +10,6 @@ public:
             arr[i] = abs(s[i]-t[i]);
         }
         
-        for(i=0;i<n;i++){
-            cout<<arr[i]<<" ";
-        }
-        
         i=0;
         int j = 0;
         int ans = 0;
