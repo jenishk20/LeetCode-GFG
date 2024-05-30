@@ -26,7 +26,6 @@ public:
                 cnt+=2;
                 carry = 1;
             }
-            cout<<cnt<<" "<<carry<<endl;
             r--;
         }
         return carry?cnt+1:cnt;
