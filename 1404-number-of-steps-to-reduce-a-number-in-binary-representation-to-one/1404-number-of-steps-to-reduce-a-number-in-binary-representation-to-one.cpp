@@ -1,31 +1,34 @@
 class Solution {
 public:
     int numSteps(string s) {
-        int l = s.length() - 1;
-        int carry = 0;
-        int count = 0;
-        
-        while (l > 0) {
        
-            if (s[l] - '0' + carry == 0) {
-                carry = 0;
-                count++;
-
-            } else if (s[l] - '0' + carry == 2) {
-                carry = 1;
-                count++;
-
-            } else {
-                carry = 1;
-                count += 2;
-            }
-            l--;
-        }
-
-        if (carry == 1) {
-            count++;
-        }
+        int n = s.size();
+        int i;
         
-        return count;
+        int cnt = 0;
+        int r = n-1;
+        int carry = 0;
+        
+        while(r){
+            
+            if(s[r]=='0' and carry==0){
+                cnt++;
+            }
+            else if(s[r]=='1' and carry==0){
+                carry=1;
+                cnt+=2;
+            }
+            else if(s[r]=='1' and carry==1){
+                carry = 1;
+                cnt++;
+            }
+            else if(s[r]=='0' and carry==1){
+                cnt+=2;
+                carry = 1;
+            }
+            cout<<cnt<<" "<<carry<<endl;
+            r--;
+        }
+        return carry?cnt+1:cnt;
     }
 };
