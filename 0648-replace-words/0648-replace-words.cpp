@@ -95,7 +95,6 @@ public:
                     temp+=word[j];
                     if(trie.doesPrefixExists(temp)){
                         ans += word.substr(0,j+1);
-                        
                         be = true;
                         break;
                     }
@@ -116,7 +115,6 @@ public:
             temp+=word[j];
             if(trie.doesPrefixExists(temp)){
                 ans += word.substr(0,j+1);
-
                 be = true;
                 break;
             }
