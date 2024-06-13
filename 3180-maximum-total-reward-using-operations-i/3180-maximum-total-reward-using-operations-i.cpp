@@ -1,6 +1,5 @@
 class Solution {
 public:
-    map<pair<int,int>,int>ma;
     int dp[2000][6000];
     int recur(int i,int n,vector<int>&rewardValues,int x){
         
@@ -11,6 +10,7 @@ public:
         if(dp[i][x]!=-1){
             return dp[i][x];
         }
+        
         if(x<rewardValues[i]){
             op1 = rewardValues[i] + recur(i+1,n,rewardValues,x+rewardValues[i]);
             op2 = recur(i+1,n,rewardValues,x);
