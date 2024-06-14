@@ -18,7 +18,7 @@ public:
                 
             }
             maxTillNow = max(maxTillNow,nums[i]);
-            cout<<maxTillNow<<" "<<cnt<<endl;
+            
         }
         return cnt;
     }
