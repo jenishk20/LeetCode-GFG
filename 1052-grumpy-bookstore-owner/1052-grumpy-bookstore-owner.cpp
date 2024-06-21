@@ -18,15 +18,12 @@ public:
             if(grumpy[j]){
                 currSumOfNotIncluded += customers[j];
             }
-            
+        
             if(j-i+1 == minutes){
-              
                 if(currSumOfNotIncluded > maxi){
                     maxi = currSumOfNotIncluded;
                     windowStart = i;
                 }
-                
-                cout<<i<<" "<<j<<" "<<currSumOfNotIncluded<<" "<<windowStart<<endl;
                 currSumOfNotIncluded -= (grumpy[i]?customers[i]:0);
                 i++;
             }
