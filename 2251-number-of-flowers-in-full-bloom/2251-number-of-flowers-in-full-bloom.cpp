@@ -35,12 +35,9 @@ public:
         }
         
         for(i=1;i<=m;i++){
-            
             result[i]+=result[i-1];
-            cout<<result[i]<<" ";
         }
-        cout<<endl;
-        
+       
         for(i=0;i<m;i++){
            ans[temp[i].second] = result[i]; 
         }
