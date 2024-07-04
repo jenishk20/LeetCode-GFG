@@ -26,7 +26,7 @@ public:
                 temp = temp->next;
                 
             }
-            cout<<start->val<<" "<<sum<<endl;
+            
             start->val = sum;
             start->next = temp->next;
             start = start->next;
