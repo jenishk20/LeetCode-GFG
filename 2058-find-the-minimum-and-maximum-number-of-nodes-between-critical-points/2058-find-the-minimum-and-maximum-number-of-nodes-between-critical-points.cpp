@@ -11,17 +11,13 @@
 class Solution {
 public:
     vector<int> nodesBetweenCriticalPoints(ListNode* head) {
-        
-        vector<int>ans;
-        
+      
         ListNode *temp = head;
         ListNode *prev = NULL;
-        bool first = true;
-        
+     
         int mini = 1e9;
-        int maxi = 0;
         int dist = 0;
-        int firstDis = 0;
+ 
         vector<int>ve;
         
         while(temp){
