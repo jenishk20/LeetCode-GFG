@@ -8,8 +8,7 @@ public:
             
             tot += numBottles/numExchange;
             numBottles = numBottles%numExchange + numBottles/numExchange;
-            
-            cout<<tot<<" "<<numBottles<<endl;
+
         }
         
         return tot;
