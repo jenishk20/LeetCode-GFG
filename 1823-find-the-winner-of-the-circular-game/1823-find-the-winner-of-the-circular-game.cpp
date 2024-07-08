@@ -12,7 +12,15 @@ public:
     }
     int findTheWinner(int n, int k) {
         
-        memset(dp,-1,sizeof dp);
-        return 1 + recur(n,k);
+        // memset(dp,-1,sizeof dp);
+
+        
+  
+        int res = 0;
+        for(int i=2;i<=n;i++){
+            res = (res + k)%i;
+        }
+        return 1 + res;
+       
     }
 };
