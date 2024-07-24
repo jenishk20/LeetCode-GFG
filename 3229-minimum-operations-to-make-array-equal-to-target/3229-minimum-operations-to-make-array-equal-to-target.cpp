@@ -37,19 +37,6 @@ public:
                 temp1.push_back(diff[i]);
                 i++;
             }
-            
-            for(auto it : temp){
-                cout<<it<<" ";
-            }
-            cout<<endl;
-            
-            for(auto it : temp1){
-                cout<<it<<" ";
-            }
-            cout<<endl;
-            
-            cout<<calc(temp)<<" "<<calc(temp1)<<endl;
-            
             ans += calc(temp) + calc(temp1);
         }
         return ans;
