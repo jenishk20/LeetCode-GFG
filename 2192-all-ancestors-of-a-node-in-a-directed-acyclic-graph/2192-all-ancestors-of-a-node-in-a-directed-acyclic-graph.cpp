@@ -19,17 +19,8 @@ public:
             int u = it[0];
             int v = it[1];
             graph[v].push_back(u);
-            indegree[v]++;
         }
-        
-        queue<int>q;
-        
-        for(int i=0;i<n;i++){
-            if(indegree[i] == 0){
-                q.push(i);
-            }
-        }
-        
+
         for(int i=0;i<n;i++){
             vector<int>child;
             vector<int>vis(n+1,0);
@@ -37,14 +28,6 @@ public:
             sort(child.begin(),child.end());
             ans[i] = child;
             ma[i] = child;
-        }
-        
-        for(auto it : ma){
-            cout<<it.first<<" ";
-            for(auto it2 : it.second){
-                cout<<it2<<" ";
-            }
-            cout<<endl;
         }
         
         return ans;
