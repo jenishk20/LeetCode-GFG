@@ -5,8 +5,7 @@ private:
     vector<vector<string>>ans;
     
     void dfs(string word, vector<string>&seq,string beginWord){
-        
-        
+    
         if(word == beginWord){
             
             reverse(seq.begin(),seq.end());
