@@ -14,12 +14,29 @@ public:
     }
     int minSteps(int n) {
         
-        if(n==1) return 0;
-        memset(dp,-1,sizeof dp);
+        vector<int>fact(10001);
+        fact[0] = 0;
+        fact[1] = 0;
+        fact[2] = 2;
         
-        int currA = 1;
-        int currC = 1;
+        for(int i=3;i<=n;i++){
+            
+            int firstLargestFact = i/2;
+            while(firstLargestFact>=1){
+                if(i%firstLargestFact == 0){
+                    
+                    int stepsToReachFact = fact[firstLargestFact];
+                    int paste = i/firstLargestFact - 1;
+                    fact[i] = stepsToReachFact + paste + 1;
+                    break;
+                }
+                else{
+                    firstLargestFact--;
+                }
+            }
+        }
         
-        return 1 + recur(currA,currC,n);
+        return fact[n];
+      
     }
 };
