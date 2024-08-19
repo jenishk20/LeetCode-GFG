@@ -1,14 +1,8 @@
 class Solution {
 public:
     bool isUgly(int n) {
-        
-        if(n==0) return 0;
-        
-        while(n%2==0){
-            n/=2;
-        }
-        
-        for(int i=3;i<=n and i<=6;i+=2){
+     
+        for(int i=2;i<=n and i<=6;i++){
             while(n%i==0){
                 n/=i;
             }
