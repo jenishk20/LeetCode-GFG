@@ -37,12 +37,11 @@ public:
                             q.push({gene,curr.second+1});
                             vis[gene] = 1;
                         }
+                        
                         gene[i] = prev;
                     }
                 }
-                
             }
-            
         }
         return -1;
     }
