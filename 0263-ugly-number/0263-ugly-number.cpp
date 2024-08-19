@@ -13,7 +13,7 @@ public:
                 n/=i;
             }
         }
-        cout<<n<<endl;
+
         if(n!=1) return false;
         
         return true;
