@@ -32,10 +32,8 @@ public:
         else{
             timesMax = length%k;
         }
-        // int timesMax = (length%k == 0)?length/k : length%k;
+       
         curr = head;
-        
-        cout<<length<<" "<<partSize<<" "<<timesMax<<endl;
         vector<ListNode *>ans;
         
         while(k--){
