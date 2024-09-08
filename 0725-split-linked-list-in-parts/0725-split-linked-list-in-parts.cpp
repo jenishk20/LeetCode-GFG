@@ -53,7 +53,6 @@ public:
                     curr = curr->next;
                     temp = temp->next;
                 }
-                
                 ans.push_back(head->next);
             }
             else{
