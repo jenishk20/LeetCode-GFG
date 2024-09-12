@@ -17,24 +17,36 @@ public:
         
         if(!root) return ans;
         
-        stack<TreeNode *>s1,s2;
-        s1.push(root);
+        stack<TreeNode *>s1;
+       
         
-        while(!s1.empty()){
+        while(root or !s1.empty()){
             
-            auto curr = s1.top();
-            s1.pop();
-            
-            s2.push(curr);
-            
-            if(curr->left) s1.push(curr->left);
-            if(curr->right) s1.push(curr->right);
-        }
+            if(root){
+                s1.push(root);
+                root = root -> left;
+            }
+            else{
+                
+                auto curr = s1.top()->right;
+                if(curr == NULL){
+                    
+                    curr = s1.top();
+                    s1.pop();    
+                    ans.push_back(curr->val);
         
-        while(!s2.empty()){
-            auto curr = s2.top();
-            ans.push_back(curr->val);
-            s2.pop();
+                    while(!s1.empty() and s1.top()->right == curr){
+                        curr = s1.top();
+                        cout<<curr->val<<endl;
+                        ans.push_back(curr->val);
+                        s1.pop();
+                    }
+                }
+                else{
+                    root = curr;
+                }
+            }
+            
         }
         
         return ans;
