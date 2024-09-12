@@ -37,7 +37,6 @@ public:
         
                     while(!s1.empty() and s1.top()->right == curr){
                         curr = s1.top();
-                        cout<<curr->val<<endl;
                         ans.push_back(curr->val);
                         s1.pop();
                     }
