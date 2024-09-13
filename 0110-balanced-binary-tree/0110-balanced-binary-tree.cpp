@@ -16,8 +16,7 @@ public:
         
         int lh = recur(root->left,be);
         int rh = recur(root->right,be);
-        
-        cout<<root->val<<" "<<lh<<" "<<rh<<endl;
+    
         if(abs(lh-rh)>1) be = false;
         
         return max(lh,rh) + 1 ;
