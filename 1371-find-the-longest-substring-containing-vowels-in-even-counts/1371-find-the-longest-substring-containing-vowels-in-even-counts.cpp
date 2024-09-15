@@ -1,32 +1,25 @@
 class Solution {
 public:
     int findTheLongestSubstring(string s) {
-        map<string,int>ma;
+        map<int,int>ma;
         
         int n = s.size();
-        vector<int>bitMask(5,0);
-        
-        string currState = "00000";
-        ma[currState] = -1;
+        int mask = 0;
         int ans = 0;
+        ma[mask] = -1;
         
         for(int i=0;i<n;i++){
-            if(s[i] == 'a') bitMask[0] = (bitMask[0] + 1)%2;
-            if(s[i] == 'e') bitMask[1] = (bitMask[1] + 1)%2;
-            if(s[i] == 'i') bitMask[2] = (bitMask[2] + 1)%2;
-            if(s[i] == 'o') bitMask[3] = (bitMask[3] + 1)%2;
-            if(s[i] == 'u') bitMask[4] = (bitMask[4] + 1)%2;
+            if(s[i] == 'a') mask = mask ^ (1<<0);
+            if(s[i] == 'e') mask = mask ^ (1<<1);
+            if(s[i] == 'i') mask = mask ^ (1<<2);
+            if(s[i] == 'o') mask = mask ^ (1<<3);
+            if(s[i] == 'u') mask = mask ^ (1<<4);
             
-            currState = "";
-            for(int j=0;j<5;j++){
-                currState += to_string(bitMask[j]);
-            }
-            
-            if(ma.find(currState)!=ma.end()){
-                ans = max(ans,i-ma[currState]);
+            if(ma.find(mask)!=ma.end()){
+                ans = max(ans,i-ma[mask]);
             }
             else{
-                ma[currState] = i;
+                ma[mask] = i;
             }
         }
         return ans;
