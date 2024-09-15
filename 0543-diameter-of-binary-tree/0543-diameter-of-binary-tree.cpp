@@ -17,18 +17,19 @@ public:
         
         int l=solve(root->left,res);
         int r=solve(root->right,res);
-        int temp= 1 + max(l,r);
-        int ans=max(temp,1+l+r);
         
-        res=max(res,ans);
+        int op1 = l + r;
+        int op2 = max(l,r);
         
-        return temp;
+        res=max({op1,op2,res});
+        
+        return max(l,r)+1 ;
     }
     int diameterOfBinaryTree(TreeNode* root) {
         if(!root)
             return 0;
         int res=INT_MIN;
         solve(root,res);
-        return res-1;
+        return res;
     }
 };
