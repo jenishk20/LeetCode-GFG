@@ -13,8 +13,7 @@ class Solution {
 public:
     bool isSameTree(TreeNode *root1,TreeNode *root2){
         if(!root1 or !root2) return root1 == root2;
-        
-        cout<<root1->val<<" "<<root2->val<<endl;
+    
         if(root1->val != root2->val) return false;
         
         return isSameTree(root1->left,root2->left) && isSameTree(root2->right,root1->right);
@@ -23,7 +22,6 @@ public:
     
     bool isSubtree(TreeNode* root, TreeNode* subRoot) {
         if(!root || !subRoot) return root == subRoot;
-        // if(root->val == subRoot->val) return isSameTree(root,subRoot);
         
         return isSameTree(root,subRoot) ||  isSubtree(root->left,subRoot) || isSubtree(root->right,subRoot);
     }
