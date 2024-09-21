@@ -6,11 +6,10 @@ public:
         int currRes = stoi(curr);
         if(currRes > n) return;
         
-        cout<<curr<<endl;
         ans.push_back(currRes);
+        
         for(int i=0;i<=9;i++){
             recur(curr + to_string(i),n);
-            
         }
     }
     vector<int> lexicalOrder(int n) {
@@ -18,7 +17,7 @@ public:
         for(int i=1;i<=9;i++){
             recur(to_string(i),n);
         }
-        
+
         return ans;
     }
 };
