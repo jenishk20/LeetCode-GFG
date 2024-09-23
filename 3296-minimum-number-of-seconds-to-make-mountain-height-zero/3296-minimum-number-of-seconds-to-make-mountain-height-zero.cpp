@@ -1,18 +1,7 @@
 class Solution {
 public:
     typedef long long ll;
-    
-    ll findSum(ll mid, ll id){
-        
-        ll sum = 0;
-        ll st = 1;
-        
-        for(ll i=1;i<=mid;i++){
-            sum += st*id;
-            st++;
-        }
-        return sum;
-    }
+
     ll calc(ll workerTimes,ll haveTime){
         
         ll ans = 0;
@@ -41,13 +30,9 @@ public:
         ll done = 0;
         
         for(int i=0;i<workerTimes.size();i++){
-            
             ll haveTime = time;
             ll findMaxMul = calc(workerTimes[i],haveTime);
-            
-            // cout<<time<<" "<<findMaxMul<<endl;
             done += findMaxMul;
-            
         }
         
         return done >= mountainHeight;
