@@ -13,8 +13,6 @@ public:
         double d1 = -1 + sqrt(det) / 2.0;
         double d2 = -1 - sqrt(det) / 2.0;
         
-        // cout<<haveTime<<" "<<det<<" "<<d1<<" "<<d2<<endl;
-        
         d1 = ceil(d1);
         
         if(d1*d1 + d1 - haveTime <= 0) return d1;
@@ -34,8 +32,6 @@ public:
         for(int i=0;i<workerTimes.size();i++){
             ll haveTime = time;
             ll findMaxMul = calc(workerTimes[i],haveTime);
-            
-            // cout<<"HERE "<<workerTimes[i]<<" "<<findMaxMul<<endl;
             done += findMaxMul;
         }
         
