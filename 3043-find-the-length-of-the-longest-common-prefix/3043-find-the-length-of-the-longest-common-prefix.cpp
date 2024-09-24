@@ -39,7 +39,6 @@ public:
         
         string s = to_string(x);
         
-        cout<<x<<endl;
         Node *curr = root;
         
         for(int i=0;i<s.size();i++){
@@ -58,8 +57,6 @@ public:
         Node *curr = root;
         
         for(int i=0;i<s.size();i++){
-            
-            // cout<<s[i]<<" "<<curr->containsKey(s[i])<<endl;
             if(!curr->containsKey(s[i])){
                 return cnt;
             }
