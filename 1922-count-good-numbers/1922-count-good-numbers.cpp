@@ -3,20 +3,11 @@ public:
     int mod = 1e9 + 7;
     long long pow(long long base,long long power){
         
-        long long res = 1;
+        if(power == 0) return 1;
         
-        while(power){
-            
-            if(power%2 == 0){
-                base = (base * base) % mod;
-                power/=2;
-            }
-            else{
-                res = (res * base) % mod;
-                power--;
-            }
-        }
-        return res;
+        if(power%2 == 0) return pow((base*base)%mod,power/2);
+        
+        return (base * pow(base,power-1))%mod;
     }
     int countGoodNumbers(long long n) {
         
