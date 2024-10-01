@@ -10,6 +10,16 @@ public:
         
         map<char,int>vowels;
         
+        
+        vector<int>nextCon(n);
+        int last = n;
+        
+        for(int i=n-1;i>=0;i--){
+            nextCon[i] = last;
+            
+            if(!isVowel(word[i])) last = i;
+        }
+        
         i=0,j=0;
         
         int cnt = 0;
@@ -30,57 +40,48 @@ public:
                     vowels[word[i]]--;
                     if(vowels[word[i]] == 0) vowels.erase(word[i]);
                 }
-                
                 else{
                    conso--;
                 }
-                
                 i++;
             }
             
             
             if(vowels.size() == 5 and conso == k){
                 
-                int prevBegin = i;
-                
-                map<char,int>tempVowels = vowels;
-                
-                while(i<j and tempVowels.size() == 5){
-                    cnt++;
-                    tempVowels[word[i]]--;
-                    if(tempVowels[word[i]] == 0) tempVowels.erase(word[i]);
-                    cout<<tempVowels.size()<<endl;
-                    i++;
+                while(vowels.size() == 5 and conso == k){
                     
+                    cnt += nextCon[j] - j;
+                    if(isVowel(word[i])){
+                        vowels[word[i]]--;
+                        if(vowels[word[i]] == 0) vowels.erase(word[i]);
+                    }
+                    else{
+                       conso--;
+                    }
+                    i++;
                 }
                 
-                // while(i>=prevBegin){
-                //     vowels[word[i]]++;
-                //     i--;
-                // }
-                i = prevBegin;
                 
-                cout<<i<<" "<<j<<" "<<cnt<<endl;
+//                 int prevBegin = i;
+                
+//                 map<char,int>tempVowels = vowels;
+                
+//                 while(i<j and tempVowels.size() == 5){
+//                     cnt++;
+//                     tempVowels[word[i]]--;
+//                     if(tempVowels[word[i]] == 0) tempVowels.erase(word[i]);
+//                     cout<<tempVowels.size()<<endl;
+//                     i++;
+                    
+//                 }
+                
+//                 i = prevBegin;
+             
             }
              
             j++;
         }
-        
-//         while(i<n){
-            
-            
-//             if(isVowel(word[i])){
-//                 vowels[word[i]]--;
-
-//                 if(vowels[word[i]] == 0) vowels.erase(word[i]);
-//             }
-//             else{
-//                conso--;
-//             }
-            
-//             if(conso == k and vowels.size()== 5) cnt++;
-//             i++;
-//         }
         
         return cnt;
     }
