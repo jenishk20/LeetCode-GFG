@@ -1,29 +1,18 @@
 class Solution {
 public:
+    
+    
     double myPow(double x, int n) {
-        
-        double res = 1;
-        double base = x;
-        bool neg = false;
-        
-        long power = abs(n);
+    
+        if(n == 0) return 1;
         
         if(n<0){
-            neg = true;
+            n = abs(n);
+            x = 1/x;
         }
-     
-        while(power){
-            
-            if(power%2==0){
-                base *= base;
-                power/=2;
-            }
-            else{
-                res *= base;
-                power--;
-            }
-            cout<<power<<" "<<res<<endl;
-        }
-        return neg ? 1/res : res;
+        
+        if(n%2 == 0) return myPow(x*x,n/2);
+        
+        else return x*myPow(x,n-1);
     }
 };
