@@ -18,8 +18,6 @@ public:
         
         xorOfTwoEle = xorOfActualEle ^ xorOfFullArray;
         
-        cout<<xorOfTwoEle<<endl;
-        
         int fNo = 0, sNo = 0;
         int leftMostSet = 0;
         
@@ -29,8 +27,6 @@ public:
                 break;
             }
         }
-        
-        cout<<leftMostSet<<endl;
         
         for(int i=0;i<n-2;i++){
             if(i&leftMostSet){
@@ -50,11 +46,7 @@ public:
                 sNo ^= nums[i];
             }
         }
-        
-        
-        cout<<fNo<<" "<<sNo<<endl;
-        
-        
+    
         return {fNo,sNo};
     }
 };
