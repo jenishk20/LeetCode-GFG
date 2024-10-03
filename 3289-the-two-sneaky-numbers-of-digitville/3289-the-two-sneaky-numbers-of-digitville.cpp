@@ -2,12 +2,59 @@ class Solution {
 public:
     vector<int> getSneakyNumbers(vector<int>& nums) {
         
-        map<int,int>ma;
-        for(auto it : nums) ma[it]++;
+        int n = nums.size();
         
-        vector<int>ans;
-        for(auto it : ma) if(it.second == 2) ans.push_back(it.first);
+        int xorOfFullArray = 0;
+        int xorOfActualEle = 0;
+        int xorOfTwoEle = 0;
         
-        return ans;
+        for(int i=0;i<n;i++){
+            xorOfFullArray ^= nums[i];
+        }
+        
+        for(int i=0;i<n-2;i++){
+            xorOfActualEle ^= i;
+        }
+        
+        xorOfTwoEle = xorOfActualEle ^ xorOfFullArray;
+        
+        cout<<xorOfTwoEle<<endl;
+        
+        int fNo = 0, sNo = 0;
+        int leftMostSet = 0;
+        
+        for(int i=31;i>=0;i--){
+            if(xorOfTwoEle & (1<<i)){
+                leftMostSet = 1<<i;
+                break;
+            }
+        }
+        
+        cout<<leftMostSet<<endl;
+        
+        for(int i=0;i<n-2;i++){
+            if(i&leftMostSet){
+                fNo ^= i;
+            }
+            else{
+                sNo ^= i;
+            }
+        }
+        
+        
+        for(int i=0;i<n;i++){
+            if(nums[i]&leftMostSet){
+                fNo ^= nums[i];
+            }
+            else{
+                sNo ^= nums[i];
+            }
+        }
+        
+        
+        cout<<fNo<<" "<<sNo<<endl;
+        
+        
+        return {fNo,sNo};
     }
 };
