@@ -12,29 +12,21 @@ public:
         if(pq.empty()) return "";
         
         string ans = "";
-        bool possible = true;
         char prevChar = ' ';
         
-        while(!pq.empty() and possible){
+        while(!pq.empty()){
             auto curr = pq.top();
             pq.pop();
             
-          
             int rem = curr.first - min(2,curr.first);
-            cout<<curr.first<<" "<<curr.second<<" "<<
-rem<<endl;
             
             if(curr.second == prevChar){
                 
-                cout<<"Found Equal\n";
                 if(pq.empty()) break;
                 
                 auto next = pq.top();
                 pq.pop();
-                
-                // curr.first -= 2;
-                
-                cout<<curr.first<<" "<<next.first<<endl;
+          
                 if(curr.first > next.first and next.first>0){
                     ans += string(1,next.second);
                     next.first--;
@@ -50,9 +42,6 @@ rem<<endl;
                 prevChar = next.second;
                 if(curr.first) pq.push(curr);
                 if(next.first) pq.push(next);
-                
-                cout<<"Done 1 "<<ans<<endl;
-             
             }
             else{
                 
@@ -61,7 +50,7 @@ rem<<endl;
                 curr.first -= k;
                 if(curr.first>0) pq.push(curr);
                 prevChar = curr.second;
-                cout<<"Done 2 "<<ans<<endl;
+               
             }
             
         }
