@@ -18,7 +18,6 @@ public:
                     res += "C";
                 }
             }
-            cout<<res<<endl;
             ma[res]++;
         }
         
