@@ -10,7 +10,6 @@ public:
         for(;i>=0;i--){
             for(j=m-1;j>=0;j--){
                 if(box[i][j] == '#'){
-                    
                     int nx = j+1;
                     int curr = j;
                     while(nx<m and box[i][nx] == '.'){
