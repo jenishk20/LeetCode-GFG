@@ -23,8 +23,6 @@ public:
             auto curr = pq.top();
             pq.pop();
             
-            
-            
             if(curr[1] == n-1 and curr[2] == m-1) return res[n-1][m-1];
             
             if(vis[curr[1]][curr[2]]){
@@ -53,8 +51,6 @@ public:
                         pq.push({grid[nx][ny],nx,ny});
                         res[nx][ny] = grid[nx][ny] ;
                     }
-                    
-                    
                 }
             }
         }
