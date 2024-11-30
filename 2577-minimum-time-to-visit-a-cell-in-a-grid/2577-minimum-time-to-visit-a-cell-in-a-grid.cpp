@@ -1,37 +1,64 @@
 class Solution {
 public:
+    int dx[4] = {-1,0,1,0};
+    int dy[4] = {0,1,0,-1};
+    
     int minimumTime(vector<vector<int>>& grid) {
-    if (grid[0][1] > 1 && grid[1][0] > 1) return -1;
+        
+        int n = grid.size();
+        int m = grid[0].size();
+        
+        if(grid[0][0] + 1 < grid[0][1] and grid[0][0] + 1 < grid[1][0]) return -1;
+        
+        priority_queue<vector<int>,vector<vector<int>>,greater<vector<int>>>pq;
+        pq.push({0,0,0});
+        
+        vector<vector<int>>res(n,vector<int>(m,INT_MAX));
+        vector<vector<int>>vis(n,vector<int>(m,0));
+        
+        res[0][0] = 0;
     
-    int m = grid.size(), n = grid[0].size();
-    vector<vector<int>> dirs{{1, 0}, {-1, 0}, {0, 1}, {0, -1}};
-    vector<vector<bool>> visited(m, vector<bool>(n, false));
-    priority_queue<vector<int>, vector<vector<int>>, greater<>> pq;
-    
-    pq.push({grid[0][0], 0, 0}); // Start at top-left corner
-    while (!pq.empty()) {
-        // Get the current time, row, and column
-        int time = pq.top()[0], row = pq.top()[1], col = pq.top()[2];
-        pq.pop();
-        
-        // Check if we've reached the bottom-right corner
-        if (row == m - 1 && col == n - 1) return time;
-        
-        // Mark the current cell as visited
-        if (visited[row][col]) continue;
-        visited[row][col] = true;
-        
-        // Explore the neighboring cells
-        for (auto dr: dirs) {
-            int r = row + dr[0], c = col + dr[1];
-            if (r < 0 || r >= m || c < 0 || c >= n || visited[r][c]) continue;
+        while(!pq.empty()){
             
-            // Calculate the time required to reach the neighboring cell
-            int wait = (grid[r][c] - time) % 2 == 0;
-            pq.push({max(grid[r][c] + wait, time + 1), r, c});
+            auto curr = pq.top();
+            pq.pop();
+            
+            
+            
+            if(curr[1] == n-1 and curr[2] == m-1) return res[n-1][m-1];
+            
+            if(vis[curr[1]][curr[2]]){
+                continue;
+            }
+            
+            vis[curr[1]][curr[2]] = 1;
+        
+          
+            for(int k=0;k<4;k++){
+                
+                int nx = dx[k] + curr[1];
+                int ny = dy[k] + curr[2];
+                
+                if(nx>=0 and ny>=0 and nx<n and ny<m){
+                 
+                    if(grid[nx][ny]<=curr[0]+1){
+                        pq.push({curr[0]+1,nx,ny});
+                        res[nx][ny] = curr[0] + 1;
+                    }
+                    else if((grid[nx][ny]-curr[0])%2==0){
+                        pq.push({grid[nx][ny]+1,nx,ny});
+                        res[nx][ny] = grid[nx][ny]+1;
+                    }
+                    else{
+                        pq.push({grid[nx][ny],nx,ny});
+                        res[nx][ny] = grid[nx][ny] ;
+                    }
+                    
+                    
+                }
+            }
         }
-    }
-    return -1; // We couldn't reach the bottom-right corner. 
-               // We will never actually encounter this in practice.
+        
+        return -1;
     }
 };
