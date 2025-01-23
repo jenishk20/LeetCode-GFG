@@ -27,7 +27,6 @@ public:
 
         vector<int>fact(1e5+1,1),ifact(1e5+1);
     
-
         for(int i=1;i<=1e5;i++){
             fact[i] = (i*1ll*fact[i-1])%mod;
         }
