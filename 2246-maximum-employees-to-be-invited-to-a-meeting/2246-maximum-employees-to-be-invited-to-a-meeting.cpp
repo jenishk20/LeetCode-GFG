@@ -1,79 +1,70 @@
 class Solution {
 public:
+    int bfs(int node,int n,unordered_map<int,vector<int>>&graph,int other){
+        vector<int>vis(n+1,0);
+        vis[node] = 1;
+        vis[other] = 1;
+        queue<pair<int,int>>q;
+        q.push({node,0});
+        int res = 0;
 
-    int BFS(int start, unordered_map<int, vector<int>>& adj, vector<bool>& visited) {
-        queue<pair<int, int>> que; //{node, path length}
-        que.push({start, 0});
-        int maxDistance = 0;
+        while(!q.empty()){
+            int curr = q.front().first;
+            int cntNodes = q.front().second;
+            q.pop();
 
-        while(!que.empty()) {
-            auto[currNode, dist] = que.front();
-            que.pop();
-
-            for(auto &ngbr : adj[currNode]) {
-                if(!visited[ngbr]) {
-                    visited[ngbr] = true;
-                    que.push({ngbr, dist+1});
-                    maxDistance = max(maxDistance, dist+1);
+            for(auto it : graph[curr]){
+                if(!vis[it]){
+                    vis[it] = 1;
+                    q.push({it,cntNodes+1});
+                    res = max(res,cntNodes+1);
                 }
             }
         }
 
-        return maxDistance;
+        return res;
     }
-
     int maximumInvitations(vector<int>& favorite) {
+        
         int n = favorite.size();
-        unordered_map<int, vector<int>> adj;
+        int i,j,k;
+        unordered_map<int,vector<int>>graph;
 
-        for(int i = 0; i < n; i++) {
-            int u = i;
-            int v = favorite[i];
-            // u --> v
-            adj[v].push_back(u); //reversed graph - so that we can find the path length after traversal
+        for(i=0;i<n;i++){
+            graph[favorite[i]].push_back(i);
         }
 
-        int longestCycleEmplCount = 0;
-        int happyCoupleEmplCount  = 0; //cycle length = 2 waalo se kitna milpaega total
+        int maxCycle = 0;
+        int twoCycleLength = 0;
 
-        vector<bool> visited(n, false);
+        vector<bool>vis(n,false);
+       
+        for(int i=0;i<n;i++){
+            if(!vis[i]){
+                unordered_map<int,int>countSeen;
+                int cnt = 0;
+                int curr = i;
+                while(!vis[curr]){
+                    vis[curr] = 1;
+                    countSeen[curr] = cnt;
+                    int nextNode = favorite[curr];
+                    cnt++;
 
-        for(int i = 0; i < n; i++) {
+                    if(countSeen.count(nextNode)){
+                        int cycleLength = cnt - countSeen[nextNode];
+                        maxCycle = max(maxCycle, cycleLength);
 
-            if(!visited[i]) {
-                //{node, abtak ka node count}
-                unordered_map<int, int> mp;
-
-                int currNode      = i;
-                int currNodeCount = 0;
-
-                while(!visited[currNode]) { //until cycle is not detected
-                    visited[currNode] = true;
-                    mp[currNode] = currNodeCount;
-
-                    int nextNode = favorite[currNode]; //favorite node of curr node
-                    currNodeCount += 1;
-
-                    if(mp.count(nextNode)) { //already visited hai ye. Matlab cycle detect hogaya hai
-                        int cycleLength = currNodeCount - mp[nextNode];
-                        longestCycleEmplCount = max(longestCycleEmplCount, cycleLength);
-
-                        if(cycleLength == 2) { //happy couple case
-                            //currNode <-> nextNode = 2 nodes
-                            vector<bool> visitedNodes(n, false);
-                            visitedNodes[currNode] = true;
-                            visitedNodes[nextNode] = true;
-                            happyCoupleEmplCount += 2 + BFS(currNode, adj, visitedNodes) + BFS(nextNode, adj, visitedNodes);
+                        if(cycleLength == 2){
+                            
+                            int res = 2 + bfs(curr,n,graph,nextNode) + bfs(nextNode,n,graph,curr);
+                            twoCycleLength += res;
                         }
                         break;
                     }
-                    currNode = nextNode;
+                    curr = nextNode;
                 }
             }
         }
-
-        return max(happyCoupleEmplCount, longestCycleEmplCount);
-
+        return max(maxCycle,twoCycleLength);
     }
 };
-
