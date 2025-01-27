@@ -1,45 +1,47 @@
 class Solution {
 public:
-    vector<bool> checkIfPrerequisite(int n, vector<vector<int>>& prq, vector<vector<int>>& qu) {
-      
-        
-        vector<vector<int>>dp(n,vector<int>(n,INT_MAX/2));
-        vector<bool>ans;
-      //  ans.push_back(false);
-        int i,j,k;
-        for(i=0;i<prq.size();i++)
-        {
-            dp[prq[i][0]][prq[i][1]]=1;
+    vector<bool> checkIfPrerequisite(int numCourses,
+                                     vector<vector<int>>& prerequisites,
+                                     vector<vector<int>>& queries) {
+        unordered_map<int, vector<int>> adjList;
+        vector<int> indegree(numCourses, 0);
+        for (auto edge : prerequisites) {
+            adjList[edge[0]].push_back(edge[1]);
+            indegree[edge[1]]++;
         }
-        
-        for(k=0;k<n;k++)
-        {
-            for(i=0;i<n;i++)
-            {
-                for(j=0;j<n;j++)
-                {
-                    if(dp[i][j]>dp[i][k]+dp[k][j])
-                        dp[i][j]=dp[i][k]+dp[k][j];
+
+        queue<int> q;
+        for (int i = 0; i < numCourses; i++) {
+            if (!indegree[i]) {
+                q.push(i);
+            }
+        }
+
+        // Map from the node as key to the set of prerequisite nodes.
+        unordered_map<int, unordered_set<int>> nodePrerequisites;
+        while (!q.empty()) {
+            int node = q.front();
+            q.pop();
+
+            for (auto adj : adjList[node]) {
+                // Add node and prerequisite of node to the prerequisites of adj
+                nodePrerequisites[adj].insert(node);
+                for (auto prereq : nodePrerequisites[node]) {
+                    nodePrerequisites[adj].insert(prereq);
+                }
+
+                indegree[adj]--;
+                if (!indegree[adj]) {
+                    q.push(adj);
                 }
             }
         }
-        for(i=0;i<n;i++)
-        {
-            for(j=0;j<n;j++)
-            {
-                
-                cout<<dp[i][j]<<" ";
-            }
-            cout<<endl;
+
+        vector<bool> answer;
+        for (auto q : queries) {
+            answer.push_back(nodePrerequisites[q[1]].contains(q[0]));
         }
-        for(i=0;i<qu.size();i++)
-        {
-            if(dp[qu[i][0]][qu[i][1]]!=INT_MAX/2)
-                ans.push_back(1);
-            else
-                ans.push_back(0);
-        }
-        return ans;
-        
+
+        return answer;
     }
 };
