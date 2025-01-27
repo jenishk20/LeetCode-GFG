@@ -27,7 +27,6 @@ public:
             ans.push_back(curr);
 
             for(auto it : revGraph[curr]){
-                cout<<curr<<" "<<it<<endl;
                 outdegree[it]--;
                 if(outdegree[it] == 0) q.push(it);
             }
