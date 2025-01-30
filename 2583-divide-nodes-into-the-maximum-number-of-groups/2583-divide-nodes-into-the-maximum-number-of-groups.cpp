@@ -79,7 +79,6 @@ public:
 
         for(int i=1;i<=n;i++){
             dis[i] = findMaxBFS(n,i,graph);
-            cout<<i<<" "<<dis[i]<<endl;
         }
 
         for(int i=1;i<=n;i++){
