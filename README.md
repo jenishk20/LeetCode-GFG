@@ -7,6 +7,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0854-making-a-large-island](https://github.com/jenishk20/LeetCode-GFG/tree/master/0854-making-a-large-island) |
+| [1364-tuple-with-same-product](https://github.com/jenishk20/LeetCode-GFG/tree/master/1364-tuple-with-same-product) |
 | [1396-count-servers-that-communicate](https://github.com/jenishk20/LeetCode-GFG/tree/master/1396-count-servers-that-communicate) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/jenishk20/LeetCode-GFG/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [1927-maximum-ascending-subarray-sum](https://github.com/jenishk20/LeetCode-GFG/tree/master/1927-maximum-ascending-subarray-sum) |
@@ -53,6 +54,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Counting
 |  |
 | ------- |
+| [1364-tuple-with-same-product](https://github.com/jenishk20/LeetCode-GFG/tree/master/1364-tuple-with-same-product) |
 | [1396-count-servers-that-communicate](https://github.com/jenishk20/LeetCode-GFG/tree/master/1396-count-servers-that-communicate) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/jenishk20/LeetCode-GFG/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 ## Math
@@ -89,6 +91,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Hash Table
 |  |
 | ------- |
+| [1364-tuple-with-same-product](https://github.com/jenishk20/LeetCode-GFG/tree/master/1364-tuple-with-same-product) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/jenishk20/LeetCode-GFG/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 ## String
 |  |
