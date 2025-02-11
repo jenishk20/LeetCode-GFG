@@ -19,6 +19,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3429-special-array-i](https://github.com/jenishk20/LeetCode-GFG/tree/master/3429-special-array-i) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/jenishk20/LeetCode-GFG/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 | [3714-maximum-and-minimum-sums-of-at-most-size-k-subsequences](https://github.com/jenishk20/LeetCode-GFG/tree/master/3714-maximum-and-minimum-sums-of-at-most-size-k-subsequences) |
+| [3760-assign-elements-to-groups-with-constraints](https://github.com/jenishk20/LeetCode-GFG/tree/master/3760-assign-elements-to-groups-with-constraints) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -102,6 +103,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2434-design-a-number-container-system](https://github.com/jenishk20/LeetCode-GFG/tree/master/2434-design-a-number-container-system) |
 | [2448-count-number-of-bad-pairs](https://github.com/jenishk20/LeetCode-GFG/tree/master/2448-count-number-of-bad-pairs) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/jenishk20/LeetCode-GFG/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
+| [3760-assign-elements-to-groups-with-constraints](https://github.com/jenishk20/LeetCode-GFG/tree/master/3760-assign-elements-to-groups-with-constraints) |
 ## String
 |  |
 | ------- |
