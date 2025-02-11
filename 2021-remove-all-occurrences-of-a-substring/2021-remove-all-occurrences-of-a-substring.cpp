@@ -15,7 +15,6 @@ public:
                 se.pop();
                 j--;
             }
-            cout<<temp<<" "<<i<<" "<<j<<endl;
             if(j!=-1){
                 for(int k = temp.size()-1;k>=0;k--) se.push(temp[k]);
             }
