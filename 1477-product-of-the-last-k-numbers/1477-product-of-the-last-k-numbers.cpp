@@ -5,22 +5,23 @@ public:
     }
     
     void add(int num) {
+        if(num == 0){
+            pfxOfProducts.clear();
+            return;
+        }
         if(pfxOfProducts.size() == 0){
             pfxOfProducts.push_back(num);
         }
         else{
             int last = pfxOfProducts.back();
-            pfxOfProducts.push_back(num);
+            pfxOfProducts.push_back(num*last);
         }
     }
     
     int getProduct(int k) {
-        int ans = 1;
-        for(int i=pfxOfProducts.size()-k;i<pfxOfProducts.size();i++){
-            if(pfxOfProducts[i] == 0) return 0;
-            ans *= pfxOfProducts[i];
-        }
-        return ans;
+        if(pfxOfProducts.size()<k) return 0;
+        int sz = pfxOfProducts.size();
+        return pfxOfProducts[sz-1]/(sz-k-1<0 ? 1 : pfxOfProducts[sz-k-1]);
     }
 };
 
