@@ -3,31 +3,22 @@ public:
     string smallestNumber(string pattern) {
         
         int n = pattern.size();
-        int i;
-        string init = "";
-        int st = 1;
+        stack<char>st;
+        string res = "";
 
-        for(i=0;i<=n;i++){
-            init += (st + '0');
-            st++;
-        }  
+        int cnt = 1;
 
-        do{
-            int j=0;
-            bool be = true;
-            for(j=0;j<n;j++){
-                if(pattern[j] == 'I' and init[j]-'0'>init[j+1]-'0'){
-                    be = false;
-                }
-                if(pattern[j] == 'D' and init[j]-'0'<init[j+1]-'0'){
-                    be = false;
+        for(int i=0;i<=n;i++){
+            st.push(cnt + '0');
+            cnt++;
+            if(i>=n or pattern[i] == 'I'){
+                while(!st.empty()){
+                    res += st.top();
+                    st.pop();
                 }
             }
-            if(be) return init;
-            
-        }while(next_permutation(init.begin(),init.end()));
-
-        return "";
+        }
+        return res;
         
     }
 };
