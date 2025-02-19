@@ -2,7 +2,6 @@ class Solution {
 public:
     void recur(int idx,int n,int k,vector<string>&ans,string curr, char prevChar){
         if(idx == n){
-            cout<<curr<<endl;
             ans.push_back(curr);
             return;
         }
