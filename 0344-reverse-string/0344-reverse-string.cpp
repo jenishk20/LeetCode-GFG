@@ -1,11 +1,11 @@
 class Solution {
 public:
+    void recur(int st,int en,vector<char>&s){
+        if(st>en) return;
+        swap(s[st],s[en]);
+        recur(st+1,en-1,s);
+    }
     void reverseString(vector<char>& s) {
-        
-        int n = s.size();
-        
-        for(int i=0;i<n/2;i++){
-            swap(s[i],s[n-i-1]);
-        }
+        recur(0,s.size()-1,s);
     }
 };
