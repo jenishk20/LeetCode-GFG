@@ -39,6 +39,7 @@ public:
             vector<int>graph[n+1];
             vector<int>vis(n+1,0);
             reachTime.resize(n+1,0);
+            vector<int>bobPath(n+1,-1);
 
             for(auto it : edges){
                 int u = it[0];
@@ -50,26 +51,14 @@ public:
             cameFrom[bob] = -1;
             dfs(bob,-1,graph,0,vis);
 
-            // for(auto it : cameFrom){
-            //     cout<<it.first<<" "<<it.second<<endl;
-            // }
-            // cout<<endl;
-            
-            vector<int>bobPath(n+1,-1);
             int st = 0;
             bobPath[bob] = 0;
             while(st!=bob){
-                // cout<<"HERE "<<st<<" "<<reachTime[st]<<endl;
                 bobPath[st] = reachTime[st];
                 st = cameFrom[st];
             }
 
             for(int i=0;i<=n;i++) vis[i] = 0;
-
-            // for(int i=0;i<=n;i++){
-            //     cout<<bobPath[i]<<" ";
-            // }
-            // cout<<endl;
             dfs1(0,graph,bobPath,amount,0,0,vis);
             return res;
 
