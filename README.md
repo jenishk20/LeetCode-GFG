@@ -77,6 +77,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2448-count-number-of-bad-pairs](https://github.com/jenishk20/LeetCode-GFG/tree/master/2448-count-number-of-bad-pairs) |
 | [2802-find-the-punishment-number-of-an-integer](https://github.com/jenishk20/LeetCode-GFG/tree/master/2802-find-the-punishment-number-of-an-integer) |
 | [3714-maximum-and-minimum-sums-of-at-most-size-k-subsequences](https://github.com/jenishk20/LeetCode-GFG/tree/master/3714-maximum-and-minimum-sums-of-at-most-size-k-subsequences) |
+| [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/jenishk20/LeetCode-GFG/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -94,6 +95,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [3714-maximum-and-minimum-sums-of-at-most-size-k-subsequences](https://github.com/jenishk20/LeetCode-GFG/tree/master/3714-maximum-and-minimum-sums-of-at-most-size-k-subsequences) |
+| [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/jenishk20/LeetCode-GFG/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
 ## Graph
 |  |
 | ------- |
@@ -132,6 +134,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2107-find-unique-binary-string](https://github.com/jenishk20/LeetCode-GFG/tree/master/2107-find-unique-binary-string) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/jenishk20/LeetCode-GFG/tree/master/2456-construct-smallest-number-from-di-string) |
 | [3447-clear-digits](https://github.com/jenishk20/LeetCode-GFG/tree/master/3447-clear-digits) |
+| [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/jenishk20/LeetCode-GFG/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
 ## Simulation
 |  |
 | ------- |
@@ -139,6 +142,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3332-minimum-operations-to-exceed-threshold-value-ii](https://github.com/jenishk20/LeetCode-GFG/tree/master/3332-minimum-operations-to-exceed-threshold-value-ii) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/jenishk20/LeetCode-GFG/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 | [3447-clear-digits](https://github.com/jenishk20/LeetCode-GFG/tree/master/3447-clear-digits) |
+| [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/jenishk20/LeetCode-GFG/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
 ## Two Pointers
 |  |
 | ------- |
@@ -198,4 +202,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/jenishk20/LeetCode-GFG/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
+## Number Theory
+|  |
+| ------- |
+| [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/jenishk20/LeetCode-GFG/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
 <!---LeetCode Topics End-->
