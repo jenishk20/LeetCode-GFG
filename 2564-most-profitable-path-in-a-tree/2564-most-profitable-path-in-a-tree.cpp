@@ -20,9 +20,6 @@ public:
         else if(bobDistance[node] == currTime){
             maxI += (amount[node]/=2);
         }
-        cout<<node<<" "<<currTime<<" "<<maxCh<<" "<<maxI<<" "<<bobDistance[node]<<endl;
-
-
         if(maxCh == -1e9) return maxI;
         return maxI  + maxCh;
     }
