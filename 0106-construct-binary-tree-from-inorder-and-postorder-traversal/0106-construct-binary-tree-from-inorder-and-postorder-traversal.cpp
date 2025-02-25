@@ -11,33 +11,24 @@
  */
 class Solution {
 public:
-    int idx = 0;
-    TreeNode *recur(int low,int high,vector<int>&inorder,
-                   vector<int>&postorder,map<int,int>&ma){
+    int st = 0;
+    TreeNode *recur(int left,int right,vector<int>&postorder,map<int,int>&dToI){
+        if(left>right) return NULL;
         
-        if(low>high) return NULL;
-        
-        int node = postorder[idx--];
-        TreeNode *newNode = new TreeNode(node);
-        
-        if(low == high) return newNode;
-        
-        int mid = ma[node];
-        newNode->right = recur(mid+1,high,inorder,postorder,ma);
-        newNode->left = recur(low,mid-1,inorder,postorder,ma);
-        
-        
+        int firstRoot = postorder[st--];
+        int position = dToI[firstRoot];
+        TreeNode *newNode = new TreeNode(firstRoot);
+        newNode -> right = recur(position+1,right,postorder,dToI);
+        newNode -> left = recur(left,position-1,postorder,dToI);
         return newNode;
     }
     TreeNode* buildTree(vector<int>& inorder, vector<int>& postorder) {
-        map<int,int>ma;
         
-        int n = inorder.size();
-        idx = n-1;
-        for(int i=0;i<n;i++){
-            ma[inorder[i]] = i;    
+        map<int,int>dToI;
+        for(int i=0;i<inorder.size();i++){
+            dToI[inorder[i]] = i;
         }
-        
-        return recur(0,n-1,inorder,postorder,ma);
+        st = inorder.size()-1;
+        return recur(0,inorder.size()-1,postorder,dToI);
     }
 };
