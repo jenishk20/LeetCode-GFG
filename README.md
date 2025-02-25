@@ -31,6 +31,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Depth-First Search
 |  |
 | ------- |
+| [0226-invert-binary-tree](https://github.com/jenishk20/LeetCode-GFG/tree/master/0226-invert-binary-tree) |
 | [0684-redundant-connection](https://github.com/jenishk20/LeetCode-GFG/tree/master/0684-redundant-connection) |
 | [0820-find-eventual-safe-states](https://github.com/jenishk20/LeetCode-GFG/tree/master/0820-find-eventual-safe-states) |
 | [0854-making-a-large-island](https://github.com/jenishk20/LeetCode-GFG/tree/master/0854-making-a-large-island) |
@@ -43,6 +44,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Breadth-First Search
 |  |
 | ------- |
+| [0226-invert-binary-tree](https://github.com/jenishk20/LeetCode-GFG/tree/master/0226-invert-binary-tree) |
 | [0684-redundant-connection](https://github.com/jenishk20/LeetCode-GFG/tree/master/0684-redundant-connection) |
 | [0820-find-eventual-safe-states](https://github.com/jenishk20/LeetCode-GFG/tree/master/0820-find-eventual-safe-states) |
 | [0854-making-a-large-island](https://github.com/jenishk20/LeetCode-GFG/tree/master/0854-making-a-large-island) |
@@ -212,11 +214,13 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Tree
 |  |
 | ------- |
+| [0226-invert-binary-tree](https://github.com/jenishk20/LeetCode-GFG/tree/master/0226-invert-binary-tree) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/jenishk20/LeetCode-GFG/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [2564-most-profitable-path-in-a-tree](https://github.com/jenishk20/LeetCode-GFG/tree/master/2564-most-profitable-path-in-a-tree) |
 ## Binary Tree
 |  |
 | ------- |
+| [0226-invert-binary-tree](https://github.com/jenishk20/LeetCode-GFG/tree/master/0226-invert-binary-tree) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/jenishk20/LeetCode-GFG/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 ## Number Theory
 |  |
