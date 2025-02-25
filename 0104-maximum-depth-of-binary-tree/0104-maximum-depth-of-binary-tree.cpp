@@ -11,15 +11,12 @@
  */
 class Solution {
 public:
-    int recur(TreeNode *root){
-        if(!root) return 0;
-        
-        int l = recur(root->left);
-        int r = recur(root->right);
-        
-        return max(l,r) + 1;
-    }
     int maxDepth(TreeNode* root) {
-        return recur(root);
+        if(!root) return 0;
+        if(!root->left and !root->right) return 1;
+        int lh = maxDepth(root->left);
+        int rh = maxDepth(root->right);
+
+        return max(lh,rh) + 1;
     }
 };
