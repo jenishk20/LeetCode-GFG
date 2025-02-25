@@ -13,6 +13,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0695-max-area-of-island](https://github.com/jenishk20/LeetCode-GFG/tree/master/0695-max-area-of-island) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/jenishk20/LeetCode-GFG/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [0854-making-a-large-island](https://github.com/jenishk20/LeetCode-GFG/tree/master/0854-making-a-large-island) |
+| [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/jenishk20/LeetCode-GFG/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [1036-rotting-oranges](https://github.com/jenishk20/LeetCode-GFG/tree/master/1036-rotting-oranges) |
 | [1364-tuple-with-same-product](https://github.com/jenishk20/LeetCode-GFG/tree/master/1364-tuple-with-same-product) |
 | [1396-count-servers-that-communicate](https://github.com/jenishk20/LeetCode-GFG/tree/master/1396-count-servers-that-communicate) |
@@ -146,6 +147,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/jenishk20/LeetCode-GFG/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/jenishk20/LeetCode-GFG/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
+| [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/jenishk20/LeetCode-GFG/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [1160-letter-tile-possibilities](https://github.com/jenishk20/LeetCode-GFG/tree/master/1160-letter-tile-possibilities) |
 | [1364-tuple-with-same-product](https://github.com/jenishk20/LeetCode-GFG/tree/master/1364-tuple-with-same-product) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/jenishk20/LeetCode-GFG/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
@@ -242,6 +244,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/jenishk20/LeetCode-GFG/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/jenishk20/LeetCode-GFG/tree/master/0199-binary-tree-right-side-view) |
 | [0226-invert-binary-tree](https://github.com/jenishk20/LeetCode-GFG/tree/master/0226-invert-binary-tree) |
+| [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/jenishk20/LeetCode-GFG/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/jenishk20/LeetCode-GFG/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [2564-most-profitable-path-in-a-tree](https://github.com/jenishk20/LeetCode-GFG/tree/master/2564-most-profitable-path-in-a-tree) |
 ## Binary Tree
@@ -252,6 +255,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/jenishk20/LeetCode-GFG/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/jenishk20/LeetCode-GFG/tree/master/0199-binary-tree-right-side-view) |
 | [0226-invert-binary-tree](https://github.com/jenishk20/LeetCode-GFG/tree/master/0226-invert-binary-tree) |
+| [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/jenishk20/LeetCode-GFG/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/jenishk20/LeetCode-GFG/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 ## Number Theory
 |  |
@@ -262,4 +266,5 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/jenishk20/LeetCode-GFG/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/jenishk20/LeetCode-GFG/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
+| [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/jenishk20/LeetCode-GFG/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 <!---LeetCode Topics End-->
