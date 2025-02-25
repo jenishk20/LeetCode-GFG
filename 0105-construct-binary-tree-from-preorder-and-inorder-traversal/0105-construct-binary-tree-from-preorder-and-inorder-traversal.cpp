@@ -11,28 +11,23 @@
  */
 class Solution {
 public:
-    int idx=0;
-    TreeNode *recur(vector<int>&preorder,vector<int>&inorder,unordered_map<int,int>&ma,int st,int en)
-    {
-        if(st>en)
-            return NULL;
-       
-        int curr=preorder[idx++];
-        TreeNode *newNode=new TreeNode(curr);
-        if(st==en)
-            return newNode;
-        int mid=ma[curr];
-        newNode->left=recur(preorder,inorder,ma,st,mid-1);
-        newNode->right=recur(preorder,inorder,ma,mid+1,en);
+    int st = 0;
+    TreeNode *recur(int left,int right,vector<int>&preorder,map<int,int>&dToI){
+        if(left>right) return NULL;
+        
+        int firstRoot = preorder[st++];
+        int position = dToI[firstRoot];
+        TreeNode *newNode = new TreeNode(firstRoot);
+        newNode -> left = recur(left,position-1,preorder,dToI);
+        newNode -> right = recur(position+1,right,preorder,dToI);
         return newNode;
     }
     TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder) {
-        unordered_map<int,int>ma;
-        int n=inorder.size();
-        for(int i=0;i<n;i++)
-        {
-            ma[inorder[i]]=i;
+        
+        map<int,int>dToI;
+        for(int i=0;i<inorder.size();i++){
+            dToI[inorder[i]] = i;
         }
-        return recur(preorder,inorder,ma,0,n-1);
+        return recur(0,inorder.size()-1,preorder,dToI);
     }
 };
