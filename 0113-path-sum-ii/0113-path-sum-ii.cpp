@@ -12,17 +12,17 @@
 class Solution {
 public:
     vector<vector<int>>ans;
-    void recur(TreeNode *root,int targetSum,int currSum,vector<int>temp){
+    void recur(TreeNode *root,int targetSum,int currSum,vector<int>&temp){
         if(!root) return;
-        
+        temp.push_back(root->val);
         if(!root->left and !root->right and currSum + root->val == targetSum){
-            temp.push_back(root->val);
             ans.push_back(temp);
+            temp.pop_back();
             return;
         }
-        temp.push_back(root->val);
         recur(root->left,targetSum,currSum + root->val,temp);
         recur(root->right,targetSum,currSum + root->val,temp);
+        temp.pop_back();
     }
     vector<vector<int>> pathSum(TreeNode* root, int targetSum) {
         if(!root) return ans;
