@@ -11,18 +11,22 @@
  */
 class Solution {
 public:
-    bool isSameTree(TreeNode *root1,TreeNode *root2){
-        if(!root1 or !root2) return root1 == root2;
-    
-        if(root1->val != root2->val) return false;
-        
-        return isSameTree(root1->left,root2->left) && isSameTree(root2->right,root1->right);
-        
+    bool ans = false;
+    bool isSameTree(TreeNode *p,TreeNode *q){
+        if(!p and !q) return true;
+        if(p and !q) return false;
+        if(!p and q) return false;
+        if(p->val != q->val) return false;
+        cout<<p->val<<" "<<q->val<<endl;
+        return isSameTree(p->left,q->left) and isSameTree(p->right,q->right);
     }
-    
+
     bool isSubtree(TreeNode* root, TreeNode* subRoot) {
-        if(!root || !subRoot) return root == subRoot;
-        
-        return isSameTree(root,subRoot) ||  isSubtree(root->left,subRoot) || isSubtree(root->right,subRoot);
+        if(!root) return false;
+        if(root->val == subRoot->val){
+            ans = ans or isSameTree(root,subRoot);
+        }
+        return ans or isSubtree(root->left,subRoot) or isSubtree(root->right,subRoot);
+
     }
 };
