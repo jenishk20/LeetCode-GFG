@@ -49,6 +49,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/jenishk20/LeetCode-GFG/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0366-find-leaves-of-binary-tree](https://github.com/jenishk20/LeetCode-GFG/tree/master/0366-find-leaves-of-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/jenishk20/LeetCode-GFG/tree/master/0543-diameter-of-binary-tree) |
+| [0572-subtree-of-another-tree](https://github.com/jenishk20/LeetCode-GFG/tree/master/0572-subtree-of-another-tree) |
 | [0684-redundant-connection](https://github.com/jenishk20/LeetCode-GFG/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/jenishk20/LeetCode-GFG/tree/master/0695-max-area-of-island) |
 | [0820-find-eventual-safe-states](https://github.com/jenishk20/LeetCode-GFG/tree/master/0820-find-eventual-safe-states) |
@@ -267,6 +268,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/jenishk20/LeetCode-GFG/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0366-find-leaves-of-binary-tree](https://github.com/jenishk20/LeetCode-GFG/tree/master/0366-find-leaves-of-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/jenishk20/LeetCode-GFG/tree/master/0543-diameter-of-binary-tree) |
+| [0572-subtree-of-another-tree](https://github.com/jenishk20/LeetCode-GFG/tree/master/0572-subtree-of-another-tree) |
 | [0832-binary-tree-pruning](https://github.com/jenishk20/LeetCode-GFG/tree/master/0832-binary-tree-pruning) |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/jenishk20/LeetCode-GFG/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [0998-check-completeness-of-a-binary-tree](https://github.com/jenishk20/LeetCode-GFG/tree/master/0998-check-completeness-of-a-binary-tree) |
@@ -286,6 +288,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/jenishk20/LeetCode-GFG/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0366-find-leaves-of-binary-tree](https://github.com/jenishk20/LeetCode-GFG/tree/master/0366-find-leaves-of-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/jenishk20/LeetCode-GFG/tree/master/0543-diameter-of-binary-tree) |
+| [0572-subtree-of-another-tree](https://github.com/jenishk20/LeetCode-GFG/tree/master/0572-subtree-of-another-tree) |
 | [0832-binary-tree-pruning](https://github.com/jenishk20/LeetCode-GFG/tree/master/0832-binary-tree-pruning) |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/jenishk20/LeetCode-GFG/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [0998-check-completeness-of-a-binary-tree](https://github.com/jenishk20/LeetCode-GFG/tree/master/0998-check-completeness-of-a-binary-tree) |
@@ -301,4 +304,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/jenishk20/LeetCode-GFG/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/jenishk20/LeetCode-GFG/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/jenishk20/LeetCode-GFG/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
+## String Matching
+|  |
+| ------- |
+| [0572-subtree-of-another-tree](https://github.com/jenishk20/LeetCode-GFG/tree/master/0572-subtree-of-another-tree) |
+## Hash Function
+|  |
+| ------- |
+| [0572-subtree-of-another-tree](https://github.com/jenishk20/LeetCode-GFG/tree/master/0572-subtree-of-another-tree) |
 <!---LeetCode Topics End-->
