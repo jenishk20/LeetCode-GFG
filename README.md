@@ -6,6 +6,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Array
 |  |
 | ------- |
+| [0015-3sum](https://github.com/jenishk20/LeetCode-GFG/tree/master/0015-3sum) |
 | [0056-merge-intervals](https://github.com/jenishk20/LeetCode-GFG/tree/master/0056-merge-intervals) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/jenishk20/LeetCode-GFG/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/jenishk20/LeetCode-GFG/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
@@ -121,6 +122,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Sorting
 |  |
 | ------- |
+| [0015-3sum](https://github.com/jenishk20/LeetCode-GFG/tree/master/0015-3sum) |
 | [0056-merge-intervals](https://github.com/jenishk20/LeetCode-GFG/tree/master/0056-merge-intervals) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/jenishk20/LeetCode-GFG/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/jenishk20/LeetCode-GFG/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
@@ -188,6 +190,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Two Pointers
 |  |
 | ------- |
+| [0015-3sum](https://github.com/jenishk20/LeetCode-GFG/tree/master/0015-3sum) |
 | [0125-valid-palindrome](https://github.com/jenishk20/LeetCode-GFG/tree/master/0125-valid-palindrome) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/jenishk20/LeetCode-GFG/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0344-reverse-string](https://github.com/jenishk20/LeetCode-GFG/tree/master/0344-reverse-string) |
