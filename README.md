@@ -40,6 +40,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0104-maximum-depth-of-binary-tree](https://github.com/jenishk20/LeetCode-GFG/tree/master/0104-maximum-depth-of-binary-tree) |
+| [0112-path-sum](https://github.com/jenishk20/LeetCode-GFG/tree/master/0112-path-sum) |
 | [0113-path-sum-ii](https://github.com/jenishk20/LeetCode-GFG/tree/master/0113-path-sum-ii) |
 | [0199-binary-tree-right-side-view](https://github.com/jenishk20/LeetCode-GFG/tree/master/0199-binary-tree-right-side-view) |
 | [0200-number-of-islands](https://github.com/jenishk20/LeetCode-GFG/tree/master/0200-number-of-islands) |
@@ -61,6 +62,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0104-maximum-depth-of-binary-tree](https://github.com/jenishk20/LeetCode-GFG/tree/master/0104-maximum-depth-of-binary-tree) |
+| [0112-path-sum](https://github.com/jenishk20/LeetCode-GFG/tree/master/0112-path-sum) |
 | [0199-binary-tree-right-side-view](https://github.com/jenishk20/LeetCode-GFG/tree/master/0199-binary-tree-right-side-view) |
 | [0200-number-of-islands](https://github.com/jenishk20/LeetCode-GFG/tree/master/0200-number-of-islands) |
 | [0226-invert-binary-tree](https://github.com/jenishk20/LeetCode-GFG/tree/master/0226-invert-binary-tree) |
@@ -254,6 +256,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0104-maximum-depth-of-binary-tree](https://github.com/jenishk20/LeetCode-GFG/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/jenishk20/LeetCode-GFG/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/jenishk20/LeetCode-GFG/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
+| [0112-path-sum](https://github.com/jenishk20/LeetCode-GFG/tree/master/0112-path-sum) |
 | [0113-path-sum-ii](https://github.com/jenishk20/LeetCode-GFG/tree/master/0113-path-sum-ii) |
 | [0199-binary-tree-right-side-view](https://github.com/jenishk20/LeetCode-GFG/tree/master/0199-binary-tree-right-side-view) |
 | [0226-invert-binary-tree](https://github.com/jenishk20/LeetCode-GFG/tree/master/0226-invert-binary-tree) |
@@ -270,6 +273,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0104-maximum-depth-of-binary-tree](https://github.com/jenishk20/LeetCode-GFG/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/jenishk20/LeetCode-GFG/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/jenishk20/LeetCode-GFG/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
+| [0112-path-sum](https://github.com/jenishk20/LeetCode-GFG/tree/master/0112-path-sum) |
 | [0113-path-sum-ii](https://github.com/jenishk20/LeetCode-GFG/tree/master/0113-path-sum-ii) |
 | [0199-binary-tree-right-side-view](https://github.com/jenishk20/LeetCode-GFG/tree/master/0199-binary-tree-right-side-view) |
 | [0226-invert-binary-tree](https://github.com/jenishk20/LeetCode-GFG/tree/master/0226-invert-binary-tree) |
