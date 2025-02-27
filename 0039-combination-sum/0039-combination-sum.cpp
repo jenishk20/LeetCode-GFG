@@ -1,26 +1,28 @@
 class Solution {
 public:
-    void find(int idx,vector<int>& candidates, int target,vector<int>&temp,vector<vector<int>>&ans)
-    {
-        if(idx==candidates.size())
-        {
-            if(target==0)
-                ans.push_back(temp);
+    void recur(int i,int en,vector<int>&temp,vector<vector<int>>&ans,int currSum,
+    vector<int>&candidates){
+
+        if(i>=en){
+            if(currSum == 0) ans.push_back(temp);
             return;
         }
-        if(target>=candidates[idx])
-        {
-            temp.push_back(candidates[idx]);
-            find(idx,candidates,target-candidates[idx],temp,ans);
+
+        if(currSum >= candidates[i]){
+            currSum -= candidates[i];
+            temp.push_back(candidates[i]);
+            recur(i,en,temp,ans,currSum,candidates);
+            currSum += candidates[i];
             temp.pop_back();
         }
-        find(idx+1,candidates,target,temp,ans);
+        recur(i+1,en,temp,ans,currSum,candidates);
+
     }
     vector<vector<int>> combinationSum(vector<int>& candidates, int target) {
-        
-        vector<int>temp;
         vector<vector<int>>ans;
-        find(0,candidates,target,temp,ans);
+        int n = candidates.size();
+        vector<int>temp;
+        recur(0,n,temp,ans,target,candidates);
         return ans;
     }
 };
