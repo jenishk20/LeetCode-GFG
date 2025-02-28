@@ -1,39 +1,39 @@
 class Solution {
 public:
-    bool canFinish(int numCourses, vector<vector<int>>& prerequisites) {
+
+    bool dfs(int node,vector<int>graph[],vector<int>&vis,vector<int>&inStack){
         
-        vector<int>graph[numCourses+1];
-        vector<int>indegree(numCourses+1,0);
-        
-        for(auto i:prerequisites){
-            int u = i[0];
-            int v = i[1];
-            graph[v].push_back(u);
-            indegree[u]++;
-        }
-        
-        int i;
-        queue<int>q;
-        for(i=0;i<numCourses;i++){
-            if(indegree[i]==0){
-                q.push(i);
-            }
-        }
-        
-        int cnt = 0;
-        while(!q.empty()){
-            int curr = q.front();
-            q.pop();
+        if(inStack[node]) return true;
+        if(vis[node]) return false;
+
+        vis[node] = 1;
+        inStack[node] = 1;
+        for(auto it : graph[node]){
             
-            for(auto itr:graph[curr]){
-                indegree[itr]--;
-                if(indegree[itr]==0){
-                    q.push(itr);
-                }
-            }
-            cnt++;
+            if(dfs(it,graph,vis,inStack)) return true;
+            
         }
-        
-        return cnt == numCourses;
+        inStack[node] = 0;
+        return false;
+    }
+    bool canFinish(int numCourses, vector<vector<int>>& prereq) {
+
+        vector<int>graph[numCourses+1];
+
+        for(auto it : prereq){
+            int u = it[0];
+            int v = it[1];
+            graph[v].push_back(u);
+        }
+
+        vector<int>vis(numCourses+1,0),inStack(numCourses+1,0);
+
+        for(int i=0;i<numCourses;i++){
+            if(!vis[i]){
+                if(dfs(i,graph,vis,inStack)) return false;
+            }
+        }
+        return true;
+
     }
 };
