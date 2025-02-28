@@ -50,6 +50,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0113-path-sum-ii](https://github.com/jenishk20/LeetCode-GFG/tree/master/0113-path-sum-ii) |
 | [0199-binary-tree-right-side-view](https://github.com/jenishk20/LeetCode-GFG/tree/master/0199-binary-tree-right-side-view) |
 | [0200-number-of-islands](https://github.com/jenishk20/LeetCode-GFG/tree/master/0200-number-of-islands) |
+| [0207-course-schedule](https://github.com/jenishk20/LeetCode-GFG/tree/master/0207-course-schedule) |
 | [0226-invert-binary-tree](https://github.com/jenishk20/LeetCode-GFG/tree/master/0226-invert-binary-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/jenishk20/LeetCode-GFG/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0366-find-leaves-of-binary-tree](https://github.com/jenishk20/LeetCode-GFG/tree/master/0366-find-leaves-of-binary-tree) |
@@ -74,6 +75,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0112-path-sum](https://github.com/jenishk20/LeetCode-GFG/tree/master/0112-path-sum) |
 | [0199-binary-tree-right-side-view](https://github.com/jenishk20/LeetCode-GFG/tree/master/0199-binary-tree-right-side-view) |
 | [0200-number-of-islands](https://github.com/jenishk20/LeetCode-GFG/tree/master/0200-number-of-islands) |
+| [0207-course-schedule](https://github.com/jenishk20/LeetCode-GFG/tree/master/0207-course-schedule) |
 | [0226-invert-binary-tree](https://github.com/jenishk20/LeetCode-GFG/tree/master/0226-invert-binary-tree) |
 | [0286-walls-and-gates](https://github.com/jenishk20/LeetCode-GFG/tree/master/0286-walls-and-gates) |
 | [0684-redundant-connection](https://github.com/jenishk20/LeetCode-GFG/tree/master/0684-redundant-connection) |
@@ -152,6 +154,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Graph
 |  |
 | ------- |
+| [0207-course-schedule](https://github.com/jenishk20/LeetCode-GFG/tree/master/0207-course-schedule) |
 | [0684-redundant-connection](https://github.com/jenishk20/LeetCode-GFG/tree/master/0684-redundant-connection) |
 | [0820-find-eventual-safe-states](https://github.com/jenishk20/LeetCode-GFG/tree/master/0820-find-eventual-safe-states) |
 | [1558-course-schedule-iv](https://github.com/jenishk20/LeetCode-GFG/tree/master/1558-course-schedule-iv) |
@@ -161,6 +164,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Topological Sort
 |  |
 | ------- |
+| [0207-course-schedule](https://github.com/jenishk20/LeetCode-GFG/tree/master/0207-course-schedule) |
 | [0820-find-eventual-safe-states](https://github.com/jenishk20/LeetCode-GFG/tree/master/0820-find-eventual-safe-states) |
 | [1558-course-schedule-iv](https://github.com/jenishk20/LeetCode-GFG/tree/master/1558-course-schedule-iv) |
 | [2246-maximum-employees-to-be-invited-to-a-meeting](https://github.com/jenishk20/LeetCode-GFG/tree/master/2246-maximum-employees-to-be-invited-to-a-meeting) |
