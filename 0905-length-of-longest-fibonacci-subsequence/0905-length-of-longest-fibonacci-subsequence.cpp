@@ -5,21 +5,23 @@ public:
         unordered_set<int> numSet(arr.begin(), arr.end());
 
         int maxLen = 0;
-        for (int start = 0; start < n; ++start) {
-            for (int next = start + 1; next < n; ++next) {
-                int prev = arr[next];
-                int curr = arr[start] + arr[next];
-                int len = 2;
 
-                while (numSet.find(curr) != numSet.end()) {
-                    int temp = curr;
-                    curr += prev;
+        for(int i=0;i<n;i++){
+            for(int j=i+1;j<n;j++){
+                int toFind = arr[i] + arr[j];
+                int prev = arr[j];
+                int currLen = 2;
+
+                while(numSet.count(toFind)){
+                    int temp = toFind;
+                    toFind = prev + toFind;
                     prev = temp;
-                    maxLen = max(maxLen, ++len);
+                    currLen++;
+                    maxLen = max(maxLen,currLen);
                 }
+                
             }
         }
-
         return maxLen;
     }
 };
