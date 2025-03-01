@@ -33,6 +33,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2107-find-unique-binary-string](https://github.com/jenishk20/LeetCode-GFG/tree/master/2107-find-unique-binary-string) |
 | [2448-count-number-of-bad-pairs](https://github.com/jenishk20/LeetCode-GFG/tree/master/2448-count-number-of-bad-pairs) |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/jenishk20/LeetCode-GFG/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
+| [2551-apply-operations-to-an-array](https://github.com/jenishk20/LeetCode-GFG/tree/master/2551-apply-operations-to-an-array) |
 | [2564-most-profitable-path-in-a-tree](https://github.com/jenishk20/LeetCode-GFG/tree/master/2564-most-profitable-path-in-a-tree) |
 | [2764-maximum-number-of-fish-in-a-grid](https://github.com/jenishk20/LeetCode-GFG/tree/master/2764-maximum-number-of-fish-in-a-grid) |
 | [3219-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/jenishk20/LeetCode-GFG/tree/master/3219-make-lexicographically-smallest-array-by-swapping-elements) |
@@ -213,6 +214,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/jenishk20/LeetCode-GFG/tree/master/2021-remove-all-occurrences-of-a-substring) |
+| [2551-apply-operations-to-an-array](https://github.com/jenishk20/LeetCode-GFG/tree/master/2551-apply-operations-to-an-array) |
 | [3332-minimum-operations-to-exceed-threshold-value-ii](https://github.com/jenishk20/LeetCode-GFG/tree/master/3332-minimum-operations-to-exceed-threshold-value-ii) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/jenishk20/LeetCode-GFG/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 | [3447-clear-digits](https://github.com/jenishk20/LeetCode-GFG/tree/master/3447-clear-digits) |
@@ -225,6 +227,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/jenishk20/LeetCode-GFG/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0344-reverse-string](https://github.com/jenishk20/LeetCode-GFG/tree/master/0344-reverse-string) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/jenishk20/LeetCode-GFG/tree/master/0719-find-k-th-smallest-pair-distance) |
+| [2551-apply-operations-to-an-array](https://github.com/jenishk20/LeetCode-GFG/tree/master/2551-apply-operations-to-an-array) |
 ## Binary Search
 |  |
 | ------- |
