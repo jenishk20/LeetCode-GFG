@@ -7,6 +7,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0015-3sum](https://github.com/jenishk20/LeetCode-GFG/tree/master/0015-3sum) |
+| [0033-search-in-rotated-sorted-array](https://github.com/jenishk20/LeetCode-GFG/tree/master/0033-search-in-rotated-sorted-array) |
 | [0039-combination-sum](https://github.com/jenishk20/LeetCode-GFG/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/jenishk20/LeetCode-GFG/tree/master/0040-combination-sum-ii) |
 | [0042-trapping-rain-water](https://github.com/jenishk20/LeetCode-GFG/tree/master/0042-trapping-rain-water) |
@@ -251,6 +252,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Binary Search
 |  |
 | ------- |
+| [0033-search-in-rotated-sorted-array](https://github.com/jenishk20/LeetCode-GFG/tree/master/0033-search-in-rotated-sorted-array) |
 | [0074-search-a-2d-matrix](https://github.com/jenishk20/LeetCode-GFG/tree/master/0074-search-a-2d-matrix) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/jenishk20/LeetCode-GFG/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/jenishk20/LeetCode-GFG/tree/master/0719-find-k-th-smallest-pair-distance) |
