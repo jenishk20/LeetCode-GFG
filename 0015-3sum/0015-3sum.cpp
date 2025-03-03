@@ -3,32 +3,27 @@ public:
     vector<vector<int>> threeSum(vector<int>& nums) {
         int n = nums.size();
 
-        sort(nums.begin(),nums.end());
+        // sort(nums.begin(),nums.end());
         int i=0;
         int j=0;
+        set<vector<int>>res;
+        set<int>dups;
+        map<int,int>done;
 
-        vector<vector<int>>ansi;
-        set<vector<int>>ans;
         for(i=0;i<n;i++){
-            int curr = nums[i];
-            int l = i+1;
-            int r = n-1;
-            while(l<r){
-                if(nums[l] + nums[r] == -curr){
-                    ans.insert({curr,nums[l],nums[r]});
-                    l++;
-                    r--;
-                }
-                else if(nums[l] + nums[r] < -curr){
-                    l++;
-                }
-                else{
-                    r--;
+            if(!dups.count(nums[i])){
+                dups.insert(nums[i]);
+                for(j=i+1;j<n;j++){
+                    int req = -nums[i]-nums[j];
+                    if(done.find(req) != done.end() and done[req] == i){
+                        vector<int>tt = {nums[i],nums[j],req};
+                        sort(tt.begin(),tt.end());
+                        res.insert(tt);
+                    }
+                    done[nums[j]] = i;
                 }
             }
         }
-
-        for(auto it : ans) ansi.push_back(it);
-        return ansi;
+        return vector<vector<int>>(begin(res),end(res));
     }
 };
