@@ -239,6 +239,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0125-valid-palindrome](https://github.com/jenishk20/LeetCode-GFG/tree/master/0125-valid-palindrome) |
 | [0131-palindrome-partitioning](https://github.com/jenishk20/LeetCode-GFG/tree/master/0131-palindrome-partitioning) |
 | [0344-reverse-string](https://github.com/jenishk20/LeetCode-GFG/tree/master/0344-reverse-string) |
+| [0657-robot-return-to-origin](https://github.com/jenishk20/LeetCode-GFG/tree/master/0657-robot-return-to-origin) |
 | [1146-greatest-common-divisor-of-strings](https://github.com/jenishk20/LeetCode-GFG/tree/master/1146-greatest-common-divisor-of-strings) |
 | [1160-letter-tile-possibilities](https://github.com/jenishk20/LeetCode-GFG/tree/master/1160-letter-tile-possibilities) |
 | [1170-shortest-common-supersequence](https://github.com/jenishk20/LeetCode-GFG/tree/master/1170-shortest-common-supersequence) |
@@ -252,6 +253,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Simulation
 |  |
 | ------- |
+| [0657-robot-return-to-origin](https://github.com/jenishk20/LeetCode-GFG/tree/master/0657-robot-return-to-origin) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/jenishk20/LeetCode-GFG/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/jenishk20/LeetCode-GFG/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2551-apply-operations-to-an-array](https://github.com/jenishk20/LeetCode-GFG/tree/master/2551-apply-operations-to-an-array) |
