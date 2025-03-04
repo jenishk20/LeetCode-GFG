@@ -18,6 +18,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0078-subsets](https://github.com/jenishk20/LeetCode-GFG/tree/master/0078-subsets) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/jenishk20/LeetCode-GFG/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/jenishk20/LeetCode-GFG/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/jenishk20/LeetCode-GFG/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0128-longest-consecutive-sequence](https://github.com/jenishk20/LeetCode-GFG/tree/master/0128-longest-consecutive-sequence) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/jenishk20/LeetCode-GFG/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0200-number-of-islands](https://github.com/jenishk20/LeetCode-GFG/tree/master/0200-number-of-islands) |
@@ -164,6 +165,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0022-generate-parentheses](https://github.com/jenishk20/LeetCode-GFG/tree/master/0022-generate-parentheses) |
 | [0042-trapping-rain-water](https://github.com/jenishk20/LeetCode-GFG/tree/master/0042-trapping-rain-water) |
 | [0070-climbing-stairs](https://github.com/jenishk20/LeetCode-GFG/tree/master/0070-climbing-stairs) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/jenishk20/LeetCode-GFG/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0131-palindrome-partitioning](https://github.com/jenishk20/LeetCode-GFG/tree/master/0131-palindrome-partitioning) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/jenishk20/LeetCode-GFG/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [1170-shortest-common-supersequence](https://github.com/jenishk20/LeetCode-GFG/tree/master/1170-shortest-common-supersequence) |
