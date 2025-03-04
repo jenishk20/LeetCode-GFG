@@ -144,6 +144,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0070-climbing-stairs](https://github.com/jenishk20/LeetCode-GFG/tree/master/0070-climbing-stairs) |
 | [1477-product-of-the-last-k-numbers](https://github.com/jenishk20/LeetCode-GFG/tree/master/1477-product-of-the-last-k-numbers) |
+| [1585-the-kth-factor-of-n](https://github.com/jenishk20/LeetCode-GFG/tree/master/1585-the-kth-factor-of-n) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/jenishk20/LeetCode-GFG/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [2448-count-number-of-bad-pairs](https://github.com/jenishk20/LeetCode-GFG/tree/master/2448-count-number-of-bad-pairs) |
 | [2802-find-the-punishment-number-of-an-integer](https://github.com/jenishk20/LeetCode-GFG/tree/master/2802-find-the-punishment-number-of-an-integer) |
@@ -364,6 +365,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Number Theory
 |  |
 | ------- |
+| [1585-the-kth-factor-of-n](https://github.com/jenishk20/LeetCode-GFG/tree/master/1585-the-kth-factor-of-n) |
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/jenishk20/LeetCode-GFG/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
 ## Divide and Conquer
 |  |
