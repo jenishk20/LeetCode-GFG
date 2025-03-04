@@ -40,6 +40,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1927-maximum-ascending-subarray-sum](https://github.com/jenishk20/LeetCode-GFG/tree/master/1927-maximum-ascending-subarray-sum) |
 | [2107-find-unique-binary-string](https://github.com/jenishk20/LeetCode-GFG/tree/master/2107-find-unique-binary-string) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/jenishk20/LeetCode-GFG/tree/master/2265-partition-array-according-to-given-pivot) |
+| [2354-minimum-health-to-beat-game](https://github.com/jenishk20/LeetCode-GFG/tree/master/2354-minimum-health-to-beat-game) |
 | [2448-count-number-of-bad-pairs](https://github.com/jenishk20/LeetCode-GFG/tree/master/2448-count-number-of-bad-pairs) |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/jenishk20/LeetCode-GFG/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
 | [2551-apply-operations-to-an-array](https://github.com/jenishk20/LeetCode-GFG/tree/master/2551-apply-operations-to-an-array) |
@@ -318,6 +319,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Greedy
 |  |
 | ------- |
+| [2354-minimum-health-to-beat-game](https://github.com/jenishk20/LeetCode-GFG/tree/master/2354-minimum-health-to-beat-game) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/jenishk20/LeetCode-GFG/tree/master/2456-construct-smallest-number-from-di-string) |
 | [3764-maximum-sum-with-at-most-k-elements](https://github.com/jenishk20/LeetCode-GFG/tree/master/3764-maximum-sum-with-at-most-k-elements) |
 ## Tree
