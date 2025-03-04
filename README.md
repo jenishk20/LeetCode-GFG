@@ -454,6 +454,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/jenishk20/LeetCode-GFG/tree/master/0023-merge-k-sorted-lists) |
+| [0025-reverse-nodes-in-k-group](https://github.com/jenishk20/LeetCode-GFG/tree/master/0025-reverse-nodes-in-k-group) |
 | [0817-design-hashmap](https://github.com/jenishk20/LeetCode-GFG/tree/master/0817-design-hashmap) |
 ## Eulerian Circuit
 |  |
@@ -463,4 +464,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/jenishk20/LeetCode-GFG/tree/master/0023-merge-k-sorted-lists) |
+## Recursion
+|  |
+| ------- |
+| [0025-reverse-nodes-in-k-group](https://github.com/jenishk20/LeetCode-GFG/tree/master/0025-reverse-nodes-in-k-group) |
 <!---LeetCode Topics End-->
