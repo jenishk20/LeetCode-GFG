@@ -7,6 +7,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0015-3sum](https://github.com/jenishk20/LeetCode-GFG/tree/master/0015-3sum) |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/jenishk20/LeetCode-GFG/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0033-search-in-rotated-sorted-array](https://github.com/jenishk20/LeetCode-GFG/tree/master/0033-search-in-rotated-sorted-array) |
 | [0039-combination-sum](https://github.com/jenishk20/LeetCode-GFG/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/jenishk20/LeetCode-GFG/tree/master/0040-combination-sum-ii) |
@@ -252,6 +253,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0015-3sum](https://github.com/jenishk20/LeetCode-GFG/tree/master/0015-3sum) |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/jenishk20/LeetCode-GFG/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0042-trapping-rain-water](https://github.com/jenishk20/LeetCode-GFG/tree/master/0042-trapping-rain-water) |
 | [0125-valid-palindrome](https://github.com/jenishk20/LeetCode-GFG/tree/master/0125-valid-palindrome) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/jenishk20/LeetCode-GFG/tree/master/0167-two-sum-ii-input-array-is-sorted) |
