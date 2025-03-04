@@ -150,6 +150,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Dynamic Programming
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/jenishk20/LeetCode-GFG/tree/master/0022-generate-parentheses) |
 | [0042-trapping-rain-water](https://github.com/jenishk20/LeetCode-GFG/tree/master/0042-trapping-rain-water) |
 | [0070-climbing-stairs](https://github.com/jenishk20/LeetCode-GFG/tree/master/0070-climbing-stairs) |
 | [0131-palindrome-partitioning](https://github.com/jenishk20/LeetCode-GFG/tree/master/0131-palindrome-partitioning) |
@@ -215,6 +216,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## String
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/jenishk20/LeetCode-GFG/tree/master/0022-generate-parentheses) |
 | [0125-valid-palindrome](https://github.com/jenishk20/LeetCode-GFG/tree/master/0125-valid-palindrome) |
 | [0131-palindrome-partitioning](https://github.com/jenishk20/LeetCode-GFG/tree/master/0131-palindrome-partitioning) |
 | [0344-reverse-string](https://github.com/jenishk20/LeetCode-GFG/tree/master/0344-reverse-string) |
@@ -294,6 +296,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Backtracking
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/jenishk20/LeetCode-GFG/tree/master/0022-generate-parentheses) |
 | [0039-combination-sum](https://github.com/jenishk20/LeetCode-GFG/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/jenishk20/LeetCode-GFG/tree/master/0040-combination-sum-ii) |
 | [0078-subsets](https://github.com/jenishk20/LeetCode-GFG/tree/master/0078-subsets) |
