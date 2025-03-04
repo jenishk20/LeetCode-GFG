@@ -38,6 +38,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1364-tuple-with-same-product](https://github.com/jenishk20/LeetCode-GFG/tree/master/1364-tuple-with-same-product) |
 | [1396-count-servers-that-communicate](https://github.com/jenishk20/LeetCode-GFG/tree/master/1396-count-servers-that-communicate) |
 | [1477-product-of-the-last-k-numbers](https://github.com/jenishk20/LeetCode-GFG/tree/master/1477-product-of-the-last-k-numbers) |
+| [1528-kids-with-the-greatest-number-of-candies](https://github.com/jenishk20/LeetCode-GFG/tree/master/1528-kids-with-the-greatest-number-of-candies) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/jenishk20/LeetCode-GFG/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1706-min-cost-to-connect-all-points](https://github.com/jenishk20/LeetCode-GFG/tree/master/1706-min-cost-to-connect-all-points) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/jenishk20/LeetCode-GFG/tree/master/1878-check-if-array-is-sorted-and-rotated) |
