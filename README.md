@@ -27,6 +27,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0219-contains-duplicate-ii](https://github.com/jenishk20/LeetCode-GFG/tree/master/0219-contains-duplicate-ii) |
 | [0238-product-of-array-except-self](https://github.com/jenishk20/LeetCode-GFG/tree/master/0238-product-of-array-except-self) |
 | [0239-sliding-window-maximum](https://github.com/jenishk20/LeetCode-GFG/tree/master/0239-sliding-window-maximum) |
+| [0253-meeting-rooms-ii](https://github.com/jenishk20/LeetCode-GFG/tree/master/0253-meeting-rooms-ii) |
 | [0283-move-zeroes](https://github.com/jenishk20/LeetCode-GFG/tree/master/0283-move-zeroes) |
 | [0286-walls-and-gates](https://github.com/jenishk20/LeetCode-GFG/tree/master/0286-walls-and-gates) |
 | [0380-insert-delete-getrandom-o1](https://github.com/jenishk20/LeetCode-GFG/tree/master/0380-insert-delete-getrandom-o1) |
@@ -195,6 +196,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0015-3sum](https://github.com/jenishk20/LeetCode-GFG/tree/master/0015-3sum) |
 | [0056-merge-intervals](https://github.com/jenishk20/LeetCode-GFG/tree/master/0056-merge-intervals) |
+| [0253-meeting-rooms-ii](https://github.com/jenishk20/LeetCode-GFG/tree/master/0253-meeting-rooms-ii) |
 | [0295-find-median-from-data-stream](https://github.com/jenishk20/LeetCode-GFG/tree/master/0295-find-median-from-data-stream) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/jenishk20/LeetCode-GFG/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [0883-car-fleet](https://github.com/jenishk20/LeetCode-GFG/tree/master/0883-car-fleet) |
@@ -300,6 +302,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0125-valid-palindrome](https://github.com/jenishk20/LeetCode-GFG/tree/master/0125-valid-palindrome) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/jenishk20/LeetCode-GFG/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0189-rotate-array](https://github.com/jenishk20/LeetCode-GFG/tree/master/0189-rotate-array) |
+| [0253-meeting-rooms-ii](https://github.com/jenishk20/LeetCode-GFG/tree/master/0253-meeting-rooms-ii) |
 | [0283-move-zeroes](https://github.com/jenishk20/LeetCode-GFG/tree/master/0283-move-zeroes) |
 | [0295-find-median-from-data-stream](https://github.com/jenishk20/LeetCode-GFG/tree/master/0295-find-median-from-data-stream) |
 | [0344-reverse-string](https://github.com/jenishk20/LeetCode-GFG/tree/master/0344-reverse-string) |
@@ -331,6 +334,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/jenishk20/LeetCode-GFG/tree/master/0023-merge-k-sorted-lists) |
 | [0239-sliding-window-maximum](https://github.com/jenishk20/LeetCode-GFG/tree/master/0239-sliding-window-maximum) |
+| [0253-meeting-rooms-ii](https://github.com/jenishk20/LeetCode-GFG/tree/master/0253-meeting-rooms-ii) |
 | [0295-find-median-from-data-stream](https://github.com/jenishk20/LeetCode-GFG/tree/master/0295-find-median-from-data-stream) |
 | [0480-sliding-window-median](https://github.com/jenishk20/LeetCode-GFG/tree/master/0480-sliding-window-median) |
 | [2434-design-a-number-container-system](https://github.com/jenishk20/LeetCode-GFG/tree/master/2434-design-a-number-container-system) |
@@ -360,6 +364,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/jenishk20/LeetCode-GFG/tree/master/0238-product-of-array-except-self) |
+| [0253-meeting-rooms-ii](https://github.com/jenishk20/LeetCode-GFG/tree/master/0253-meeting-rooms-ii) |
 | [1477-product-of-the-last-k-numbers](https://github.com/jenishk20/LeetCode-GFG/tree/master/1477-product-of-the-last-k-numbers) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/jenishk20/LeetCode-GFG/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 ## Backtracking
@@ -380,6 +385,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Greedy
 |  |
 | ------- |
+| [0253-meeting-rooms-ii](https://github.com/jenishk20/LeetCode-GFG/tree/master/0253-meeting-rooms-ii) |
 | [2354-minimum-health-to-beat-game](https://github.com/jenishk20/LeetCode-GFG/tree/master/2354-minimum-health-to-beat-game) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/jenishk20/LeetCode-GFG/tree/master/2456-construct-smallest-number-from-di-string) |
 | [3764-maximum-sum-with-at-most-k-elements](https://github.com/jenishk20/LeetCode-GFG/tree/master/3764-maximum-sum-with-at-most-k-elements) |
