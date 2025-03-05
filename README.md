@@ -14,6 +14,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0039-combination-sum](https://github.com/jenishk20/LeetCode-GFG/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/jenishk20/LeetCode-GFG/tree/master/0040-combination-sum-ii) |
 | [0042-trapping-rain-water](https://github.com/jenishk20/LeetCode-GFG/tree/master/0042-trapping-rain-water) |
+| [0045-jump-game-ii](https://github.com/jenishk20/LeetCode-GFG/tree/master/0045-jump-game-ii) |
 | [0053-maximum-subarray](https://github.com/jenishk20/LeetCode-GFG/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/jenishk20/LeetCode-GFG/tree/master/0055-jump-game) |
 | [0056-merge-intervals](https://github.com/jenishk20/LeetCode-GFG/tree/master/0056-merge-intervals) |
@@ -186,6 +187,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0022-generate-parentheses](https://github.com/jenishk20/LeetCode-GFG/tree/master/0022-generate-parentheses) |
 | [0042-trapping-rain-water](https://github.com/jenishk20/LeetCode-GFG/tree/master/0042-trapping-rain-water) |
+| [0045-jump-game-ii](https://github.com/jenishk20/LeetCode-GFG/tree/master/0045-jump-game-ii) |
 | [0053-maximum-subarray](https://github.com/jenishk20/LeetCode-GFG/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/jenishk20/LeetCode-GFG/tree/master/0055-jump-game) |
 | [0070-climbing-stairs](https://github.com/jenishk20/LeetCode-GFG/tree/master/0070-climbing-stairs) |
@@ -391,6 +393,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Greedy
 |  |
 | ------- |
+| [0045-jump-game-ii](https://github.com/jenishk20/LeetCode-GFG/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/jenishk20/LeetCode-GFG/tree/master/0055-jump-game) |
 | [0253-meeting-rooms-ii](https://github.com/jenishk20/LeetCode-GFG/tree/master/0253-meeting-rooms-ii) |
 | [2354-minimum-health-to-beat-game](https://github.com/jenishk20/LeetCode-GFG/tree/master/2354-minimum-health-to-beat-game) |
