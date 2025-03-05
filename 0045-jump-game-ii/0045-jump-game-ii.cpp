@@ -14,7 +14,6 @@ public:
             }
             l = r+1;
             r = farthest;
-            cout<<l<<" "<<r<<" "<<jumps<<endl;
             jumps++;
         }
         return jumps;
