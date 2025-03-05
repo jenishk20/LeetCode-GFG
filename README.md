@@ -22,6 +22,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/jenishk20/LeetCode-GFG/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0128-longest-consecutive-sequence](https://github.com/jenishk20/LeetCode-GFG/tree/master/0128-longest-consecutive-sequence) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/jenishk20/LeetCode-GFG/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0189-rotate-array](https://github.com/jenishk20/LeetCode-GFG/tree/master/0189-rotate-array) |
 | [0200-number-of-islands](https://github.com/jenishk20/LeetCode-GFG/tree/master/0200-number-of-islands) |
 | [0219-contains-duplicate-ii](https://github.com/jenishk20/LeetCode-GFG/tree/master/0219-contains-duplicate-ii) |
 | [0238-product-of-array-except-self](https://github.com/jenishk20/LeetCode-GFG/tree/master/0238-product-of-array-except-self) |
@@ -160,6 +161,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0009-palindrome-number](https://github.com/jenishk20/LeetCode-GFG/tree/master/0009-palindrome-number) |
 | [0013-roman-to-integer](https://github.com/jenishk20/LeetCode-GFG/tree/master/0013-roman-to-integer) |
 | [0070-climbing-stairs](https://github.com/jenishk20/LeetCode-GFG/tree/master/0070-climbing-stairs) |
+| [0189-rotate-array](https://github.com/jenishk20/LeetCode-GFG/tree/master/0189-rotate-array) |
 | [0380-insert-delete-getrandom-o1](https://github.com/jenishk20/LeetCode-GFG/tree/master/0380-insert-delete-getrandom-o1) |
 | [0504-base-7](https://github.com/jenishk20/LeetCode-GFG/tree/master/0504-base-7) |
 | [1146-greatest-common-divisor-of-strings](https://github.com/jenishk20/LeetCode-GFG/tree/master/1146-greatest-common-divisor-of-strings) |
@@ -292,6 +294,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0042-trapping-rain-water](https://github.com/jenishk20/LeetCode-GFG/tree/master/0042-trapping-rain-water) |
 | [0125-valid-palindrome](https://github.com/jenishk20/LeetCode-GFG/tree/master/0125-valid-palindrome) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/jenishk20/LeetCode-GFG/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0189-rotate-array](https://github.com/jenishk20/LeetCode-GFG/tree/master/0189-rotate-array) |
 | [0283-move-zeroes](https://github.com/jenishk20/LeetCode-GFG/tree/master/0283-move-zeroes) |
 | [0295-find-median-from-data-stream](https://github.com/jenishk20/LeetCode-GFG/tree/master/0295-find-median-from-data-stream) |
 | [0344-reverse-string](https://github.com/jenishk20/LeetCode-GFG/tree/master/0344-reverse-string) |
