@@ -81,6 +81,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0207-course-schedule](https://github.com/jenishk20/LeetCode-GFG/tree/master/0207-course-schedule) |
 | [0226-invert-binary-tree](https://github.com/jenishk20/LeetCode-GFG/tree/master/0226-invert-binary-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/jenishk20/LeetCode-GFG/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [0250-count-univalue-subtrees](https://github.com/jenishk20/LeetCode-GFG/tree/master/0250-count-univalue-subtrees) |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/jenishk20/LeetCode-GFG/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
 | [0332-reconstruct-itinerary](https://github.com/jenishk20/LeetCode-GFG/tree/master/0332-reconstruct-itinerary) |
 | [0366-find-leaves-of-binary-tree](https://github.com/jenishk20/LeetCode-GFG/tree/master/0366-find-leaves-of-binary-tree) |
@@ -393,6 +394,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0199-binary-tree-right-side-view](https://github.com/jenishk20/LeetCode-GFG/tree/master/0199-binary-tree-right-side-view) |
 | [0226-invert-binary-tree](https://github.com/jenishk20/LeetCode-GFG/tree/master/0226-invert-binary-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/jenishk20/LeetCode-GFG/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [0250-count-univalue-subtrees](https://github.com/jenishk20/LeetCode-GFG/tree/master/0250-count-univalue-subtrees) |
 | [0366-find-leaves-of-binary-tree](https://github.com/jenishk20/LeetCode-GFG/tree/master/0366-find-leaves-of-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/jenishk20/LeetCode-GFG/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/jenishk20/LeetCode-GFG/tree/master/0572-subtree-of-another-tree) |
@@ -413,6 +415,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0199-binary-tree-right-side-view](https://github.com/jenishk20/LeetCode-GFG/tree/master/0199-binary-tree-right-side-view) |
 | [0226-invert-binary-tree](https://github.com/jenishk20/LeetCode-GFG/tree/master/0226-invert-binary-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/jenishk20/LeetCode-GFG/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [0250-count-univalue-subtrees](https://github.com/jenishk20/LeetCode-GFG/tree/master/0250-count-univalue-subtrees) |
 | [0366-find-leaves-of-binary-tree](https://github.com/jenishk20/LeetCode-GFG/tree/master/0366-find-leaves-of-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/jenishk20/LeetCode-GFG/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/jenishk20/LeetCode-GFG/tree/master/0572-subtree-of-another-tree) |
