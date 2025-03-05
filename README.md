@@ -47,6 +47,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/jenishk20/LeetCode-GFG/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1706-min-cost-to-connect-all-points](https://github.com/jenishk20/LeetCode-GFG/tree/master/1706-min-cost-to-connect-all-points) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/jenishk20/LeetCode-GFG/tree/master/1878-check-if-array-is-sorted-and-rotated) |
+| [1909-buildings-with-an-ocean-view](https://github.com/jenishk20/LeetCode-GFG/tree/master/1909-buildings-with-an-ocean-view) |
 | [1927-maximum-ascending-subarray-sum](https://github.com/jenishk20/LeetCode-GFG/tree/master/1927-maximum-ascending-subarray-sum) |
 | [2107-find-unique-binary-string](https://github.com/jenishk20/LeetCode-GFG/tree/master/2107-find-unique-binary-string) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/jenishk20/LeetCode-GFG/tree/master/2265-partition-array-according-to-given-pivot) |
@@ -336,6 +337,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0042-trapping-rain-water](https://github.com/jenishk20/LeetCode-GFG/tree/master/0042-trapping-rain-water) |
 | [0735-asteroid-collision](https://github.com/jenishk20/LeetCode-GFG/tree/master/0735-asteroid-collision) |
 | [0883-car-fleet](https://github.com/jenishk20/LeetCode-GFG/tree/master/0883-car-fleet) |
+| [1909-buildings-with-an-ocean-view](https://github.com/jenishk20/LeetCode-GFG/tree/master/1909-buildings-with-an-ocean-view) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/jenishk20/LeetCode-GFG/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/jenishk20/LeetCode-GFG/tree/master/2456-construct-smallest-number-from-di-string) |
 | [3447-clear-digits](https://github.com/jenishk20/LeetCode-GFG/tree/master/3447-clear-digits) |
@@ -454,6 +456,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0042-trapping-rain-water](https://github.com/jenishk20/LeetCode-GFG/tree/master/0042-trapping-rain-water) |
 | [0883-car-fleet](https://github.com/jenishk20/LeetCode-GFG/tree/master/0883-car-fleet) |
+| [1909-buildings-with-an-ocean-view](https://github.com/jenishk20/LeetCode-GFG/tree/master/1909-buildings-with-an-ocean-view) |
 ## Queue
 |  |
 | ------- |
