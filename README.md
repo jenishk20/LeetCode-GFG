@@ -159,6 +159,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0009-palindrome-number](https://github.com/jenishk20/LeetCode-GFG/tree/master/0009-palindrome-number) |
+| [0012-integer-to-roman](https://github.com/jenishk20/LeetCode-GFG/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/jenishk20/LeetCode-GFG/tree/master/0013-roman-to-integer) |
 | [0070-climbing-stairs](https://github.com/jenishk20/LeetCode-GFG/tree/master/0070-climbing-stairs) |
 | [0189-rotate-array](https://github.com/jenishk20/LeetCode-GFG/tree/master/0189-rotate-array) |
@@ -228,6 +229,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Hash Table
 |  |
 | ------- |
+| [0012-integer-to-roman](https://github.com/jenishk20/LeetCode-GFG/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/jenishk20/LeetCode-GFG/tree/master/0013-roman-to-integer) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/jenishk20/LeetCode-GFG/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/jenishk20/LeetCode-GFG/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
@@ -254,6 +256,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## String
 |  |
 | ------- |
+| [0012-integer-to-roman](https://github.com/jenishk20/LeetCode-GFG/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/jenishk20/LeetCode-GFG/tree/master/0013-roman-to-integer) |
 | [0022-generate-parentheses](https://github.com/jenishk20/LeetCode-GFG/tree/master/0022-generate-parentheses) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/jenishk20/LeetCode-GFG/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
