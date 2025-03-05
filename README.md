@@ -24,6 +24,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/jenishk20/LeetCode-GFG/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/jenishk20/LeetCode-GFG/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0128-longest-consecutive-sequence](https://github.com/jenishk20/LeetCode-GFG/tree/master/0128-longest-consecutive-sequence) |
+| [0139-word-break](https://github.com/jenishk20/LeetCode-GFG/tree/master/0139-word-break) |
 | [0152-maximum-product-subarray](https://github.com/jenishk20/LeetCode-GFG/tree/master/0152-maximum-product-subarray) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/jenishk20/LeetCode-GFG/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0189-rotate-array](https://github.com/jenishk20/LeetCode-GFG/tree/master/0189-rotate-array) |
@@ -193,6 +194,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0070-climbing-stairs](https://github.com/jenishk20/LeetCode-GFG/tree/master/0070-climbing-stairs) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/jenishk20/LeetCode-GFG/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0131-palindrome-partitioning](https://github.com/jenishk20/LeetCode-GFG/tree/master/0131-palindrome-partitioning) |
+| [0139-word-break](https://github.com/jenishk20/LeetCode-GFG/tree/master/0139-word-break) |
 | [0152-maximum-product-subarray](https://github.com/jenishk20/LeetCode-GFG/tree/master/0152-maximum-product-subarray) |
 | [0647-palindromic-substrings](https://github.com/jenishk20/LeetCode-GFG/tree/master/0647-palindromic-substrings) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/jenishk20/LeetCode-GFG/tree/master/0905-length-of-longest-fibonacci-subsequence) |
@@ -247,6 +249,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/jenishk20/LeetCode-GFG/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0128-longest-consecutive-sequence](https://github.com/jenishk20/LeetCode-GFG/tree/master/0128-longest-consecutive-sequence) |
 | [0133-clone-graph](https://github.com/jenishk20/LeetCode-GFG/tree/master/0133-clone-graph) |
+| [0139-word-break](https://github.com/jenishk20/LeetCode-GFG/tree/master/0139-word-break) |
 | [0219-contains-duplicate-ii](https://github.com/jenishk20/LeetCode-GFG/tree/master/0219-contains-duplicate-ii) |
 | [0380-insert-delete-getrandom-o1](https://github.com/jenishk20/LeetCode-GFG/tree/master/0380-insert-delete-getrandom-o1) |
 | [0480-sliding-window-median](https://github.com/jenishk20/LeetCode-GFG/tree/master/0480-sliding-window-median) |
@@ -274,6 +277,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/jenishk20/LeetCode-GFG/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0125-valid-palindrome](https://github.com/jenishk20/LeetCode-GFG/tree/master/0125-valid-palindrome) |
 | [0131-palindrome-partitioning](https://github.com/jenishk20/LeetCode-GFG/tree/master/0131-palindrome-partitioning) |
+| [0139-word-break](https://github.com/jenishk20/LeetCode-GFG/tree/master/0139-word-break) |
 | [0344-reverse-string](https://github.com/jenishk20/LeetCode-GFG/tree/master/0344-reverse-string) |
 | [0647-palindromic-substrings](https://github.com/jenishk20/LeetCode-GFG/tree/master/0647-palindromic-substrings) |
 | [0657-robot-return-to-origin](https://github.com/jenishk20/LeetCode-GFG/tree/master/0657-robot-return-to-origin) |
@@ -475,6 +479,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/jenishk20/LeetCode-GFG/tree/master/0070-climbing-stairs) |
+| [0139-word-break](https://github.com/jenishk20/LeetCode-GFG/tree/master/0139-word-break) |
 ## Sliding Window
 |  |
 | ------- |
@@ -517,4 +522,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0380-insert-delete-getrandom-o1](https://github.com/jenishk20/LeetCode-GFG/tree/master/0380-insert-delete-getrandom-o1) |
+## Trie
+|  |
+| ------- |
+| [0139-word-break](https://github.com/jenishk20/LeetCode-GFG/tree/master/0139-word-break) |
 <!---LeetCode Topics End-->
