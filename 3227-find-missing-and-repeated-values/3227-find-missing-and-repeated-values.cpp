@@ -3,8 +3,8 @@ public:
     vector<int> findMissingAndRepeatedValues(vector<vector<int>>& grid) {
         int n = grid.size();
 
-        long  sumOfFirstN = n*n*(n*n+1)/2;
-        long  sumOfSquareFirstN = n*1ll*n*(n*1ll*n+1)*(2*1ll*n*1ll*n+1)/6;
+        long sumOfFirstN = n*n*(n*n+1)/2;
+        long sumOfSquareFirstN = n*1ll*n*(n*1ll*n+1)*(2*1ll*n*1ll*n+1)/6;
 
         long gridSum = 0;
         long gridSumSquare = 0;
