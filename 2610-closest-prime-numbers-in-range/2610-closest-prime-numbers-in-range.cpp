@@ -2,8 +2,6 @@ class Solution {
 
 private:
     vector<bool>isPrime;
-    vector<int>primes;
-
     void generatePrimes(){
         isPrime.resize(1e6+1,1);
         isPrime[1] = 0;
