@@ -24,7 +24,6 @@ public:
         int minDiff = 1e9;
         for(int i = left;i<=right;i++){
             if(isPrime[i]){
-                cout<<i<<" ";
                 if(prev != -1){
                     int diff = i-prev;
                     if(diff < minDiff){
@@ -39,7 +38,6 @@ public:
                 }
             }
         }
-
         return ans;
     }
 };
