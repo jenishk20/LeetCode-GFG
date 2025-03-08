@@ -16,7 +16,6 @@ public:
                 else cB--;
                 i++;
             }
-            cout<<i<<" "<<j<<" "<<cB<<" "<<cW<<endl;
             if(cB + cW >= k){
                 ans = min(ans,cW);  
             }
