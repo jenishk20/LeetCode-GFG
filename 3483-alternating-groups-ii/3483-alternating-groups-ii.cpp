@@ -4,11 +4,6 @@ public:
         
         colors.insert(colors.end(),colors.begin(),colors.end());
         int n = colors.size();
-
-        for(auto it : colors){
-            cout<<it<<" ";
-        }
-
         int i = 0;
         int j = 1;
         set<int>se;
