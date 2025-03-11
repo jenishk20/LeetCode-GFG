@@ -271,6 +271,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1207-delete-nodes-and-return-forest](https://github.com/jenishk20/LeetCode-GFG/tree/master/1207-delete-nodes-and-return-forest) |
 | [1364-tuple-with-same-product](https://github.com/jenishk20/LeetCode-GFG/tree/master/1364-tuple-with-same-product) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/jenishk20/LeetCode-GFG/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
+| [1460-number-of-substrings-containing-all-three-characters](https://github.com/jenishk20/LeetCode-GFG/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/jenishk20/LeetCode-GFG/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [2107-find-unique-binary-string](https://github.com/jenishk20/LeetCode-GFG/tree/master/2107-find-unique-binary-string) |
 | [2434-design-a-number-container-system](https://github.com/jenishk20/LeetCode-GFG/tree/master/2434-design-a-number-container-system) |
@@ -297,6 +298,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1146-greatest-common-divisor-of-strings](https://github.com/jenishk20/LeetCode-GFG/tree/master/1146-greatest-common-divisor-of-strings) |
 | [1160-letter-tile-possibilities](https://github.com/jenishk20/LeetCode-GFG/tree/master/1160-letter-tile-possibilities) |
 | [1170-shortest-common-supersequence](https://github.com/jenishk20/LeetCode-GFG/tree/master/1170-shortest-common-supersequence) |
+| [1460-number-of-substrings-containing-all-three-characters](https://github.com/jenishk20/LeetCode-GFG/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/jenishk20/LeetCode-GFG/tree/master/1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/jenishk20/LeetCode-GFG/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/jenishk20/LeetCode-GFG/tree/master/2021-remove-all-occurrences-of-a-substring) |
@@ -507,6 +509,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0219-contains-duplicate-ii](https://github.com/jenishk20/LeetCode-GFG/tree/master/0219-contains-duplicate-ii) |
 | [0239-sliding-window-maximum](https://github.com/jenishk20/LeetCode-GFG/tree/master/0239-sliding-window-maximum) |
 | [0480-sliding-window-median](https://github.com/jenishk20/LeetCode-GFG/tree/master/0480-sliding-window-median) |
+| [1460-number-of-substrings-containing-all-three-characters](https://github.com/jenishk20/LeetCode-GFG/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/jenishk20/LeetCode-GFG/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
 | [3483-alternating-groups-ii](https://github.com/jenishk20/LeetCode-GFG/tree/master/3483-alternating-groups-ii) |
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/jenishk20/LeetCode-GFG/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
