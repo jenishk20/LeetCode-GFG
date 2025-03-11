@@ -24,11 +24,8 @@ public:
         dfs(root,0,0);
 
         map<int,vector<int>>yMap;
-
-
+        
         for(auto it : ma){
-            cout<<it.first->val<<" "<<it.second.first<<" "<<it.second.second<<endl;
-
             yMap[it.second.first].push_back(it.first->val);
         }
 
