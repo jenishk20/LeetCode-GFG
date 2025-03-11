@@ -13,7 +13,6 @@ public:
 
             while(i<j and ma.size() == 3){
                 cnt += n-j;
-                // cout<<i<<" "<<j<<" "<<cnt<<endl;
                 ma[s[i]]--;
                 if(ma[s[i]] == 0) ma.erase(s[i]);
                 i++;
