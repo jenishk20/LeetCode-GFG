@@ -1,55 +1,31 @@
 class Solution {
 public:
-    bool check(int mid,vector<vector<int>>&queries,vector<int>&nums){
-        int n = nums.size();
-        int i;
-
-        vector<int>pfx(n+1,0);
-        for(int i=0;i<=mid;i++){
-
-            int u = queries[i][0];
-            int v = queries[i][1];
-            int wt = queries[i][2];
-
-            pfx[u] += wt;
-            pfx[v+1] -= wt;
-        }
-
-        for(i=1;i<=n;i++){
-            pfx[i] += pfx[i-1];
-        }
-
-        for(i=0;i<n;i++){
-            if(pfx[i]<nums[i]){
-                return false;
-            }
-        }
-        return true;
-    }
     int minZeroArray(vector<int>& nums, vector<vector<int>>& queries) {
         
         int n = nums.size();
-        int k = queries.size();
 
-        int low = 0;
-        int high = k-1;
-        int ans = 1e9;
+        vector<int>pfxArray(n+1,0);
+        int currSum = 0;
+        int k = 0;
 
-        bool be = false;
+        for(int i=0;i<n;i++){
 
-        if(check(-1,queries,nums)) return 0;
+            int currentNum = nums[i];
+            while(currSum + pfxArray[i] < currentNum){
+                k++;
+                if(k>queries.size()) return -1;
 
-        while(low<=high){
-            int mid = (low+high)/2;
+                int u = queries[k-1][0];
+                int v = queries[k-1][1];
+                int wt = queries[k-1][2];
 
-            if(check(mid,queries,nums)){
-                ans = min(ans,mid);
-                high = mid-1;
+                if(i<=v){
+                    pfxArray[max(u,i)] += wt;
+                    pfxArray[v+1] -= wt;
+                }
             }
-            else{
-                low = mid+1;
-            }
+            currSum += pfxArray[i];
         }
-        return ans == 1e9 ? -1 : ans+1;
+        return k;
     }
 };
