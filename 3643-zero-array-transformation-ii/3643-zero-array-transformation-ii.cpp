@@ -6,6 +6,7 @@ public:
 
         vector<int>pfx(n+1,0);
         for(int i=0;i<=mid;i++){
+
             int u = queries[i][0];
             int v = queries[i][1];
             int wt = queries[i][2];
@@ -36,11 +37,7 @@ public:
 
         bool be = false;
 
-        for(auto it : nums){
-            if(it != 0) be = true;
-        }
-
-        if(be == false) return 0;
+        if(check(-1,queries,nums)) return 0;
 
         while(low<=high){
             int mid = (low+high)/2;
