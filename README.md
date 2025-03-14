@@ -49,6 +49,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/jenishk20/LeetCode-GFG/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [1036-rotting-oranges](https://github.com/jenishk20/LeetCode-GFG/tree/master/1036-rotting-oranges) |
 | [1207-delete-nodes-and-return-forest](https://github.com/jenishk20/LeetCode-GFG/tree/master/1207-delete-nodes-and-return-forest) |
+| [1335-maximum-candies-allocated-to-k-children](https://github.com/jenishk20/LeetCode-GFG/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [1364-tuple-with-same-product](https://github.com/jenishk20/LeetCode-GFG/tree/master/1364-tuple-with-same-product) |
 | [1396-count-servers-that-communicate](https://github.com/jenishk20/LeetCode-GFG/tree/master/1396-count-servers-that-communicate) |
 | [1477-product-of-the-last-k-numbers](https://github.com/jenishk20/LeetCode-GFG/tree/master/1477-product-of-the-last-k-numbers) |
@@ -362,6 +363,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/jenishk20/LeetCode-GFG/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/jenishk20/LeetCode-GFG/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [0792-binary-search](https://github.com/jenishk20/LeetCode-GFG/tree/master/0792-binary-search) |
+| [1335-maximum-candies-allocated-to-k-children](https://github.com/jenishk20/LeetCode-GFG/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/jenishk20/LeetCode-GFG/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
 | [3643-zero-array-transformation-ii](https://github.com/jenishk20/LeetCode-GFG/tree/master/3643-zero-array-transformation-ii) |
 ## Design
