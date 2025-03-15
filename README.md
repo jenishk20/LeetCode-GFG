@@ -68,6 +68,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2551-apply-operations-to-an-array](https://github.com/jenishk20/LeetCode-GFG/tree/master/2551-apply-operations-to-an-array) |
 | [2564-most-profitable-path-in-a-tree](https://github.com/jenishk20/LeetCode-GFG/tree/master/2564-most-profitable-path-in-a-tree) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/jenishk20/LeetCode-GFG/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
+| [2690-house-robber-iv](https://github.com/jenishk20/LeetCode-GFG/tree/master/2690-house-robber-iv) |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/jenishk20/LeetCode-GFG/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 | [2764-maximum-number-of-fish-in-a-grid](https://github.com/jenishk20/LeetCode-GFG/tree/master/2764-maximum-number-of-fish-in-a-grid) |
 | [3142-longest-unequal-adjacent-groups-subsequence-ii](https://github.com/jenishk20/LeetCode-GFG/tree/master/3142-longest-unequal-adjacent-groups-subsequence-ii) |
@@ -365,6 +366,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0792-binary-search](https://github.com/jenishk20/LeetCode-GFG/tree/master/0792-binary-search) |
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/jenishk20/LeetCode-GFG/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/jenishk20/LeetCode-GFG/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
+| [2690-house-robber-iv](https://github.com/jenishk20/LeetCode-GFG/tree/master/2690-house-robber-iv) |
 | [3643-zero-array-transformation-ii](https://github.com/jenishk20/LeetCode-GFG/tree/master/3643-zero-array-transformation-ii) |
 ## Design
 |  |
