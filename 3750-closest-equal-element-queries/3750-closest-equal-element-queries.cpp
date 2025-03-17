@@ -27,11 +27,6 @@ public:
             seen[nums[i%n]] = i;
         }
 
-        for(i=0;i<n;i++){
-            cout<<dis[i]<<" ";
-        }
-        cout<<endl;
-
         for(auto it : queries){
             if(dis[it]>=n) res.push_back(-1);
             else res.push_back(dis[it]);
