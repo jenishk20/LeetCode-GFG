@@ -19,12 +19,6 @@ public:
 
         seen.clear();
 
-        cout<<seen.size()<<endl;
-
-        for(i=0;i<n;i++){
-            cout<<dis[i]<<" ";
-        }
-        cout<<endl;
 
         for(i=2*n-1;i>=0;i--){
             if(seen.count(nums[i%n])){
