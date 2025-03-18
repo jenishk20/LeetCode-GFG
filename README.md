@@ -190,6 +190,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0009-palindrome-number](https://github.com/jenishk20/LeetCode-GFG/tree/master/0009-palindrome-number) |
 | [0012-integer-to-roman](https://github.com/jenishk20/LeetCode-GFG/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/jenishk20/LeetCode-GFG/tree/master/0013-roman-to-integer) |
+| [0069-sqrtx](https://github.com/jenishk20/LeetCode-GFG/tree/master/0069-sqrtx) |
 | [0070-climbing-stairs](https://github.com/jenishk20/LeetCode-GFG/tree/master/0070-climbing-stairs) |
 | [0189-rotate-array](https://github.com/jenishk20/LeetCode-GFG/tree/master/0189-rotate-array) |
 | [0380-insert-delete-getrandom-o1](https://github.com/jenishk20/LeetCode-GFG/tree/master/0380-insert-delete-getrandom-o1) |
@@ -368,6 +369,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0033-search-in-rotated-sorted-array](https://github.com/jenishk20/LeetCode-GFG/tree/master/0033-search-in-rotated-sorted-array) |
 | [0035-search-insert-position](https://github.com/jenishk20/LeetCode-GFG/tree/master/0035-search-insert-position) |
+| [0069-sqrtx](https://github.com/jenishk20/LeetCode-GFG/tree/master/0069-sqrtx) |
 | [0074-search-a-2d-matrix](https://github.com/jenishk20/LeetCode-GFG/tree/master/0074-search-a-2d-matrix) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/jenishk20/LeetCode-GFG/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/jenishk20/LeetCode-GFG/tree/master/0719-find-k-th-smallest-pair-distance) |
