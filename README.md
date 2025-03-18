@@ -312,6 +312,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0013-roman-to-integer](https://github.com/jenishk20/LeetCode-GFG/tree/master/0013-roman-to-integer) |
 | [0022-generate-parentheses](https://github.com/jenishk20/LeetCode-GFG/tree/master/0022-generate-parentheses) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/jenishk20/LeetCode-GFG/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+| [0071-simplify-path](https://github.com/jenishk20/LeetCode-GFG/tree/master/0071-simplify-path) |
 | [0125-valid-palindrome](https://github.com/jenishk20/LeetCode-GFG/tree/master/0125-valid-palindrome) |
 | [0131-palindrome-partitioning](https://github.com/jenishk20/LeetCode-GFG/tree/master/0131-palindrome-partitioning) |
 | [0139-word-break](https://github.com/jenishk20/LeetCode-GFG/tree/master/0139-word-break) |
@@ -411,6 +412,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/jenishk20/LeetCode-GFG/tree/master/0042-trapping-rain-water) |
+| [0071-simplify-path](https://github.com/jenishk20/LeetCode-GFG/tree/master/0071-simplify-path) |
 | [0735-asteroid-collision](https://github.com/jenishk20/LeetCode-GFG/tree/master/0735-asteroid-collision) |
 | [0883-car-fleet](https://github.com/jenishk20/LeetCode-GFG/tree/master/0883-car-fleet) |
 | [1909-buildings-with-an-ocean-view](https://github.com/jenishk20/LeetCode-GFG/tree/master/1909-buildings-with-an-ocean-view) |
