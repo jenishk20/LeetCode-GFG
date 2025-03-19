@@ -86,6 +86,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3483-alternating-groups-ii](https://github.com/jenishk20/LeetCode-GFG/tree/master/3483-alternating-groups-ii) |
 | [3643-zero-array-transformation-ii](https://github.com/jenishk20/LeetCode-GFG/tree/master/3643-zero-array-transformation-ii) |
 | [3714-maximum-and-minimum-sums-of-at-most-size-k-subsequences](https://github.com/jenishk20/LeetCode-GFG/tree/master/3714-maximum-and-minimum-sums-of-at-most-size-k-subsequences) |
+| [3723-sum-of-good-numbers](https://github.com/jenishk20/LeetCode-GFG/tree/master/3723-sum-of-good-numbers) |
 | [3750-closest-equal-element-queries](https://github.com/jenishk20/LeetCode-GFG/tree/master/3750-closest-equal-element-queries) |
 | [3751-maximum-frequency-after-subarray-operation](https://github.com/jenishk20/LeetCode-GFG/tree/master/3751-maximum-frequency-after-subarray-operation) |
 | [3760-assign-elements-to-groups-with-constraints](https://github.com/jenishk20/LeetCode-GFG/tree/master/3760-assign-elements-to-groups-with-constraints) |
