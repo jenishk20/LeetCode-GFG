@@ -82,6 +82,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3372-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/jenishk20/LeetCode-GFG/tree/master/3372-longest-strictly-increasing-or-strictly-decreasing-subarray) |
 | [3429-special-array-i](https://github.com/jenishk20/LeetCode-GFG/tree/master/3429-special-array-i) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/jenishk20/LeetCode-GFG/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
+| [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/jenishk20/LeetCode-GFG/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3483-alternating-groups-ii](https://github.com/jenishk20/LeetCode-GFG/tree/master/3483-alternating-groups-ii) |
 | [3643-zero-array-transformation-ii](https://github.com/jenishk20/LeetCode-GFG/tree/master/3643-zero-array-transformation-ii) |
 | [3714-maximum-and-minimum-sums-of-at-most-size-k-subsequences](https://github.com/jenishk20/LeetCode-GFG/tree/master/3714-maximum-and-minimum-sums-of-at-most-size-k-subsequences) |
@@ -432,6 +433,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0253-meeting-rooms-ii](https://github.com/jenishk20/LeetCode-GFG/tree/master/0253-meeting-rooms-ii) |
 | [1477-product-of-the-last-k-numbers](https://github.com/jenishk20/LeetCode-GFG/tree/master/1477-product-of-the-last-k-numbers) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/jenishk20/LeetCode-GFG/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
+| [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/jenishk20/LeetCode-GFG/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3643-zero-array-transformation-ii](https://github.com/jenishk20/LeetCode-GFG/tree/master/3643-zero-array-transformation-ii) |
 | [3751-maximum-frequency-after-subarray-operation](https://github.com/jenishk20/LeetCode-GFG/tree/master/3751-maximum-frequency-after-subarray-operation) |
 ## Backtracking
@@ -536,6 +538,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0078-subsets](https://github.com/jenishk20/LeetCode-GFG/tree/master/0078-subsets) |
 | [2308-divide-array-into-equal-pairs](https://github.com/jenishk20/LeetCode-GFG/tree/master/2308-divide-array-into-equal-pairs) |
 | [2478-longest-nice-subarray](https://github.com/jenishk20/LeetCode-GFG/tree/master/2478-longest-nice-subarray) |
+| [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/jenishk20/LeetCode-GFG/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 ## Minimum Spanning Tree
 |  |
 | ------- |
@@ -554,6 +557,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/jenishk20/LeetCode-GFG/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/jenishk20/LeetCode-GFG/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
 | [2478-longest-nice-subarray](https://github.com/jenishk20/LeetCode-GFG/tree/master/2478-longest-nice-subarray) |
+| [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/jenishk20/LeetCode-GFG/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3483-alternating-groups-ii](https://github.com/jenishk20/LeetCode-GFG/tree/master/3483-alternating-groups-ii) |
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/jenishk20/LeetCode-GFG/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
 ## Monotonic Stack
@@ -567,6 +571,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/jenishk20/LeetCode-GFG/tree/master/0239-sliding-window-maximum) |
 | [0346-moving-average-from-data-stream](https://github.com/jenishk20/LeetCode-GFG/tree/master/0346-moving-average-from-data-stream) |
+| [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/jenishk20/LeetCode-GFG/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 ## Monotonic Queue
 |  |
 | ------- |
