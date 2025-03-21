@@ -61,6 +61,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1909-buildings-with-an-ocean-view](https://github.com/jenishk20/LeetCode-GFG/tree/master/1909-buildings-with-an-ocean-view) |
 | [1927-maximum-ascending-subarray-sum](https://github.com/jenishk20/LeetCode-GFG/tree/master/1927-maximum-ascending-subarray-sum) |
 | [2107-find-unique-binary-string](https://github.com/jenishk20/LeetCode-GFG/tree/master/2107-find-unique-binary-string) |
+| [2220-find-all-possible-recipes-from-given-supplies](https://github.com/jenishk20/LeetCode-GFG/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/jenishk20/LeetCode-GFG/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2308-divide-array-into-equal-pairs](https://github.com/jenishk20/LeetCode-GFG/tree/master/2308-divide-array-into-equal-pairs) |
 | [2354-minimum-health-to-beat-game](https://github.com/jenishk20/LeetCode-GFG/tree/master/2354-minimum-health-to-beat-game) |
@@ -263,6 +264,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0820-find-eventual-safe-states](https://github.com/jenishk20/LeetCode-GFG/tree/master/0820-find-eventual-safe-states) |
 | [1558-course-schedule-iv](https://github.com/jenishk20/LeetCode-GFG/tree/master/1558-course-schedule-iv) |
 | [1706-min-cost-to-connect-all-points](https://github.com/jenishk20/LeetCode-GFG/tree/master/1706-min-cost-to-connect-all-points) |
+| [2220-find-all-possible-recipes-from-given-supplies](https://github.com/jenishk20/LeetCode-GFG/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2246-maximum-employees-to-be-invited-to-a-meeting](https://github.com/jenishk20/LeetCode-GFG/tree/master/2246-maximum-employees-to-be-invited-to-a-meeting) |
 | [2564-most-profitable-path-in-a-tree](https://github.com/jenishk20/LeetCode-GFG/tree/master/2564-most-profitable-path-in-a-tree) |
 | [2583-divide-nodes-into-the-maximum-number-of-groups](https://github.com/jenishk20/LeetCode-GFG/tree/master/2583-divide-nodes-into-the-maximum-number-of-groups) |
@@ -273,6 +275,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0207-course-schedule](https://github.com/jenishk20/LeetCode-GFG/tree/master/0207-course-schedule) |
 | [0820-find-eventual-safe-states](https://github.com/jenishk20/LeetCode-GFG/tree/master/0820-find-eventual-safe-states) |
 | [1558-course-schedule-iv](https://github.com/jenishk20/LeetCode-GFG/tree/master/1558-course-schedule-iv) |
+| [2220-find-all-possible-recipes-from-given-supplies](https://github.com/jenishk20/LeetCode-GFG/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2246-maximum-employees-to-be-invited-to-a-meeting](https://github.com/jenishk20/LeetCode-GFG/tree/master/2246-maximum-employees-to-be-invited-to-a-meeting) |
 ## Hash Table
 |  |
@@ -298,6 +301,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/jenishk20/LeetCode-GFG/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/jenishk20/LeetCode-GFG/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [2107-find-unique-binary-string](https://github.com/jenishk20/LeetCode-GFG/tree/master/2107-find-unique-binary-string) |
+| [2220-find-all-possible-recipes-from-given-supplies](https://github.com/jenishk20/LeetCode-GFG/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2308-divide-array-into-equal-pairs](https://github.com/jenishk20/LeetCode-GFG/tree/master/2308-divide-array-into-equal-pairs) |
 | [2434-design-a-number-container-system](https://github.com/jenishk20/LeetCode-GFG/tree/master/2434-design-a-number-container-system) |
 | [2448-count-number-of-bad-pairs](https://github.com/jenishk20/LeetCode-GFG/tree/master/2448-count-number-of-bad-pairs) |
@@ -332,6 +336,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/jenishk20/LeetCode-GFG/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/jenishk20/LeetCode-GFG/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2107-find-unique-binary-string](https://github.com/jenishk20/LeetCode-GFG/tree/master/2107-find-unique-binary-string) |
+| [2220-find-all-possible-recipes-from-given-supplies](https://github.com/jenishk20/LeetCode-GFG/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/jenishk20/LeetCode-GFG/tree/master/2456-construct-smallest-number-from-di-string) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/jenishk20/LeetCode-GFG/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
 | [3142-longest-unequal-adjacent-groups-subsequence-ii](https://github.com/jenishk20/LeetCode-GFG/tree/master/3142-longest-unequal-adjacent-groups-subsequence-ii) |
