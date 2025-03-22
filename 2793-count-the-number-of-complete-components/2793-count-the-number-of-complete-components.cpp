@@ -23,15 +23,12 @@ class DSU{
 
         if(pu == pv){
             edgesInComp[pv]++;
-            cout<<u<<" "<<v<<" "<<pu<<" "<<pv<<" "<<edgesInComp[pu]<<" "<<edgesInComp[pv]<<endl;
             return;
         }
 
         parent[pu] = pv;
         edgesInComp[pv] += edgesInComp[pu] + 1;
         nodesInComp[pv] += nodesInComp[pu];
-
-        cout<<u<<" "<<v<<" "<<pu<<" "<<pv<<" "<<edgesInComp[pu]<<" "<<edgesInComp[pv]<<endl;
     }
 
     pair<int,int>findResult(int u){
@@ -53,9 +50,7 @@ public:
         int cnt = 0;
         for(int i=0;i<n;i++){
             if(dsu.parent[i] == i){
-                cout<<i<<endl;
                 auto res = dsu.findResult(i);
-                cout<<res.first<<" "<<res.second<<endl;
                 cnt += (res.second*(res.second-1) == 2*res.first);
             }
         }
