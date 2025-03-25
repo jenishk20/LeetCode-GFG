@@ -95,6 +95,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3760-assign-elements-to-groups-with-constraints](https://github.com/jenishk20/LeetCode-GFG/tree/master/3760-assign-elements-to-groups-with-constraints) |
 | [3764-maximum-sum-with-at-most-k-elements](https://github.com/jenishk20/LeetCode-GFG/tree/master/3764-maximum-sum-with-at-most-k-elements) |
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/jenishk20/LeetCode-GFG/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
+| [3809-properties-graph](https://github.com/jenishk20/LeetCode-GFG/tree/master/3809-properties-graph) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -128,6 +129,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2564-most-profitable-path-in-a-tree](https://github.com/jenishk20/LeetCode-GFG/tree/master/2564-most-profitable-path-in-a-tree) |
 | [2764-maximum-number-of-fish-in-a-grid](https://github.com/jenishk20/LeetCode-GFG/tree/master/2764-maximum-number-of-fish-in-a-grid) |
 | [2793-count-the-number-of-complete-components](https://github.com/jenishk20/LeetCode-GFG/tree/master/2793-count-the-number-of-complete-components) |
+| [3809-properties-graph](https://github.com/jenishk20/LeetCode-GFG/tree/master/3809-properties-graph) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -155,6 +157,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2583-divide-nodes-into-the-maximum-number-of-groups](https://github.com/jenishk20/LeetCode-GFG/tree/master/2583-divide-nodes-into-the-maximum-number-of-groups) |
 | [2764-maximum-number-of-fish-in-a-grid](https://github.com/jenishk20/LeetCode-GFG/tree/master/2764-maximum-number-of-fish-in-a-grid) |
 | [2793-count-the-number-of-complete-components](https://github.com/jenishk20/LeetCode-GFG/tree/master/2793-count-the-number-of-complete-components) |
+| [3809-properties-graph](https://github.com/jenishk20/LeetCode-GFG/tree/master/3809-properties-graph) |
 ## Union Find
 |  |
 | ------- |
@@ -171,6 +174,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2793-count-the-number-of-complete-components](https://github.com/jenishk20/LeetCode-GFG/tree/master/2793-count-the-number-of-complete-components) |
 | [3219-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/jenishk20/LeetCode-GFG/tree/master/3219-make-lexicographically-smallest-array-by-swapping-elements) |
 | [3348-minimum-cost-walk-in-weighted-graph](https://github.com/jenishk20/LeetCode-GFG/tree/master/3348-minimum-cost-walk-in-weighted-graph) |
+| [3809-properties-graph](https://github.com/jenishk20/LeetCode-GFG/tree/master/3809-properties-graph) |
 ## Matrix
 |  |
 | ------- |
@@ -278,6 +282,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2583-divide-nodes-into-the-maximum-number-of-groups](https://github.com/jenishk20/LeetCode-GFG/tree/master/2583-divide-nodes-into-the-maximum-number-of-groups) |
 | [2793-count-the-number-of-complete-components](https://github.com/jenishk20/LeetCode-GFG/tree/master/2793-count-the-number-of-complete-components) |
 | [3348-minimum-cost-walk-in-weighted-graph](https://github.com/jenishk20/LeetCode-GFG/tree/master/3348-minimum-cost-walk-in-weighted-graph) |
+| [3809-properties-graph](https://github.com/jenishk20/LeetCode-GFG/tree/master/3809-properties-graph) |
 ## Topological Sort
 |  |
 | ------- |
@@ -324,6 +329,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3751-maximum-frequency-after-subarray-operation](https://github.com/jenishk20/LeetCode-GFG/tree/master/3751-maximum-frequency-after-subarray-operation) |
 | [3760-assign-elements-to-groups-with-constraints](https://github.com/jenishk20/LeetCode-GFG/tree/master/3760-assign-elements-to-groups-with-constraints) |
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/jenishk20/LeetCode-GFG/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
+| [3809-properties-graph](https://github.com/jenishk20/LeetCode-GFG/tree/master/3809-properties-graph) |
 ## String
 |  |
 | ------- |
