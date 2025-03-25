@@ -42,6 +42,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0719-find-k-th-smallest-pair-distance](https://github.com/jenishk20/LeetCode-GFG/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [0735-asteroid-collision](https://github.com/jenishk20/LeetCode-GFG/tree/master/0735-asteroid-collision) |
 | [0792-binary-search](https://github.com/jenishk20/LeetCode-GFG/tree/master/0792-binary-search) |
+| [0816-design-hashset](https://github.com/jenishk20/LeetCode-GFG/tree/master/0816-design-hashset) |
 | [0817-design-hashmap](https://github.com/jenishk20/LeetCode-GFG/tree/master/0817-design-hashmap) |
 | [0854-making-a-large-island](https://github.com/jenishk20/LeetCode-GFG/tree/master/0854-making-a-large-island) |
 | [0883-car-fleet](https://github.com/jenishk20/LeetCode-GFG/tree/master/0883-car-fleet) |
@@ -306,6 +307,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0314-binary-tree-vertical-order-traversal](https://github.com/jenishk20/LeetCode-GFG/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0380-insert-delete-getrandom-o1](https://github.com/jenishk20/LeetCode-GFG/tree/master/0380-insert-delete-getrandom-o1) |
 | [0480-sliding-window-median](https://github.com/jenishk20/LeetCode-GFG/tree/master/0480-sliding-window-median) |
+| [0816-design-hashset](https://github.com/jenishk20/LeetCode-GFG/tree/master/0816-design-hashset) |
 | [0817-design-hashmap](https://github.com/jenishk20/LeetCode-GFG/tree/master/0817-design-hashmap) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/jenishk20/LeetCode-GFG/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/jenishk20/LeetCode-GFG/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
@@ -414,6 +416,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0295-find-median-from-data-stream](https://github.com/jenishk20/LeetCode-GFG/tree/master/0295-find-median-from-data-stream) |
 | [0346-moving-average-from-data-stream](https://github.com/jenishk20/LeetCode-GFG/tree/master/0346-moving-average-from-data-stream) |
 | [0380-insert-delete-getrandom-o1](https://github.com/jenishk20/LeetCode-GFG/tree/master/0380-insert-delete-getrandom-o1) |
+| [0816-design-hashset](https://github.com/jenishk20/LeetCode-GFG/tree/master/0816-design-hashset) |
 | [0817-design-hashmap](https://github.com/jenishk20/LeetCode-GFG/tree/master/0817-design-hashmap) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/jenishk20/LeetCode-GFG/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [1477-product-of-the-last-k-numbers](https://github.com/jenishk20/LeetCode-GFG/tree/master/1477-product-of-the-last-k-numbers) |
@@ -556,6 +559,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0572-subtree-of-another-tree](https://github.com/jenishk20/LeetCode-GFG/tree/master/0572-subtree-of-another-tree) |
+| [0816-design-hashset](https://github.com/jenishk20/LeetCode-GFG/tree/master/0816-design-hashset) |
 | [0817-design-hashmap](https://github.com/jenishk20/LeetCode-GFG/tree/master/0817-design-hashmap) |
 ## Bit Manipulation
 |  |
@@ -607,6 +611,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/jenishk20/LeetCode-GFG/tree/master/0023-merge-k-sorted-lists) |
 | [0025-reverse-nodes-in-k-group](https://github.com/jenishk20/LeetCode-GFG/tree/master/0025-reverse-nodes-in-k-group) |
+| [0816-design-hashset](https://github.com/jenishk20/LeetCode-GFG/tree/master/0816-design-hashset) |
 | [0817-design-hashmap](https://github.com/jenishk20/LeetCode-GFG/tree/master/0817-design-hashmap) |
 ## Eulerian Circuit
 |  |
