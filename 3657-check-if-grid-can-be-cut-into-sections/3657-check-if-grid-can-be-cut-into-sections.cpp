@@ -1,29 +1,37 @@
 class Solution {
 public:
-bool check(vector<vector<int>>& intervals) {
-        sort(intervals.begin(), intervals.end());
-        
-        int sections = 0;
-        int max_end = intervals[0][1];
-        
-        for (auto& interval : intervals) {
-            int start = interval[0], end = interval[1];
-            if (max_end <= start) {
-                sections++;
+    bool check(vector<pair<int,int>>&interval){
+        sort(interval.begin(),interval.end());
+
+        int prevStart = interval[0].first;
+        int prevEnd = interval[0].second;
+
+        int cnt = 0;
+        for(int i=1;i<interval.size();i++){
+            int currSt = interval[i].first;
+            int currEn = interval[i].second;
+
+            if(currSt >= prevEnd){
+                cnt++;
             }
-            max_end = max(max_end, end);
+            prevStart = max(currSt,prevStart);
+            prevEnd = max(currEn,prevEnd);
         }
-        
-        return sections >= 2;
+        return cnt>=2;
     }
     bool checkValidCuts(int n, vector<vector<int>>& rectangles) {
-        vector<vector<int>> x_intervals, y_intervals;
         
-        for (auto& rect : rectangles) {
-            x_intervals.push_back({rect[0], rect[2]});
-            y_intervals.push_back({rect[1], rect[3]});
+        vector<pair<int,int>>yInterval,xInterval;
+
+        for(int i=0;i<rectangles.size();i++){
+            int yStart = rectangles[i][1];
+            int yEnd = rectangles[i][3];
+            int xStart = rectangles[i][0];
+            int xEnd = rectangles[i][2];
+
+            xInterval.push_back({xStart,xEnd});
+            yInterval.push_back({yStart,yEnd});
         }
-        
-        return check(x_intervals) || check(y_intervals);
+        return check(xInterval) or check(yInterval);
     }
 };
