@@ -14,24 +14,18 @@ public:
             }
         }
 
-        vector<int>sfx(n+1,0);
-        for(i=n-2;i>=0;i--){
-            if(nums[i+1] == overallMajority){
-                sfx[i] += sfx[i+1]+1;
-            }
-            else{
-                sfx[i] = sfx[i+1];
-            }
+        int totalMajorityCnt = 0;
+        for(i=0;i<n;i++){
+            if(nums[i] == overallMajority) totalMajorityCnt++;
         }
 
-        int overallMajorityCnt = 0;
+        int currentMajorityCnt = 0;
         for(i=0;i<n;i++){
             if(nums[i] == overallMajority){
-                overallMajorityCnt++;
-
+                currentMajorityCnt++;
                 int left = i+1;
                 int right = n-i-1;
-                if(overallMajorityCnt > left/2 and sfx[i]>right/2){
+                if(currentMajorityCnt > left/2 and totalMajorityCnt - currentMajorityCnt > right/2){
                     return i;
                 }
             }
