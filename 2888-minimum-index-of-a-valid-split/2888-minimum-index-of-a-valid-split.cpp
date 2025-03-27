@@ -19,7 +19,6 @@ public:
             }
         }
 
-        cout<<overallMajority<<endl;
         int totalMajorityCnt = 0;
         for(i=0;i<n;i++){
             if(nums[i] == overallMajority) totalMajorityCnt++;
