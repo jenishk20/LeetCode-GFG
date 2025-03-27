@@ -1,19 +1,25 @@
 class Solution {
 public:
     int minimumIndex(vector<int>& nums) {
-        map<int,int>ma;
-
         int n = nums.size();
-        int overallMajority = -1;
+        int overallMajority = 0;
         int i;
-
-        for(auto it : nums){
-            ma[it]++;
-            if(ma[it] > n/2){
-                overallMajority = it;
+        int cnt = 0;
+        
+        for(i=0;i<n;i++){
+            if(cnt == 0){
+                overallMajority = nums[i];
+                cnt++;
+            }
+            else if(overallMajority == nums[i]){
+                cnt++;
+            }
+            else{
+                cnt--;
             }
         }
 
+        cout<<overallMajority<<endl;
         int totalMajorityCnt = 0;
         for(i=0;i<n;i++){
             if(nums[i] == overallMajority) totalMajorityCnt++;
