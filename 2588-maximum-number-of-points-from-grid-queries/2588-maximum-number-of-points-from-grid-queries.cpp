@@ -27,7 +27,7 @@ public:
         int st = 0;
 
         for(int i=0;i<queries.size();i++){
-            
+
             int currVal = sortedQueries[i].first;
             int idx = sortedQueries[i].second;
 
@@ -41,13 +41,11 @@ public:
                     int nx = dx[k] + cx;
                     int ny = dy[k] + cy;
                     if(nx>=0 and ny>=0 and nx<n and ny<m and !vis[nx][ny]){
-                        cout<<"NEIGH "<<" "<<nx<<" "<<ny<<endl;
                         pq.push({grid[nx][ny],{nx,ny}});
                         vis[nx][ny] = 1;
                     }
                 }
             }
-            cout<<points<<endl;
             ans[idx] += points;
         }
         return ans;
