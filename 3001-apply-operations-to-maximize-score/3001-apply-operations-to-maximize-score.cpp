@@ -110,7 +110,7 @@ public:
 
             long long  total = canCoverLeft * 1ll * canCoverRight;
             long long  remMin = min(total,k*1ll);
-            ans = (ans * modPower(multiplier,remMin)%mod)%mod;
+            ans = (ans * modPower(multiplier,remMin))%mod;
             k-=remMin;
         }
         return ans;
