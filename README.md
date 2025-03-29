@@ -79,6 +79,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/jenishk20/LeetCode-GFG/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 | [2764-maximum-number-of-fish-in-a-grid](https://github.com/jenishk20/LeetCode-GFG/tree/master/2764-maximum-number-of-fish-in-a-grid) |
 | [2888-minimum-index-of-a-valid-split](https://github.com/jenishk20/LeetCode-GFG/tree/master/2888-minimum-index-of-a-valid-split) |
+| [3001-apply-operations-to-maximize-score](https://github.com/jenishk20/LeetCode-GFG/tree/master/3001-apply-operations-to-maximize-score) |
 | [3142-longest-unequal-adjacent-groups-subsequence-ii](https://github.com/jenishk20/LeetCode-GFG/tree/master/3142-longest-unequal-adjacent-groups-subsequence-ii) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/jenishk20/LeetCode-GFG/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 | [3219-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/jenishk20/LeetCode-GFG/tree/master/3219-make-lexicographically-smallest-array-by-swapping-elements) |
@@ -228,6 +229,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2610-closest-prime-numbers-in-range](https://github.com/jenishk20/LeetCode-GFG/tree/master/2610-closest-prime-numbers-in-range) |
 | [2649-count-total-number-of-colored-cells](https://github.com/jenishk20/LeetCode-GFG/tree/master/2649-count-total-number-of-colored-cells) |
 | [2802-find-the-punishment-number-of-an-integer](https://github.com/jenishk20/LeetCode-GFG/tree/master/2802-find-the-punishment-number-of-an-integer) |
+| [3001-apply-operations-to-maximize-score](https://github.com/jenishk20/LeetCode-GFG/tree/master/3001-apply-operations-to-maximize-score) |
 | [3227-find-missing-and-repeated-values](https://github.com/jenishk20/LeetCode-GFG/tree/master/3227-find-missing-and-repeated-values) |
 | [3714-maximum-and-minimum-sums-of-at-most-size-k-subsequences](https://github.com/jenishk20/LeetCode-GFG/tree/master/3714-maximum-and-minimum-sums-of-at-most-size-k-subsequences) |
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/jenishk20/LeetCode-GFG/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
@@ -268,6 +270,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/jenishk20/LeetCode-GFG/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/jenishk20/LeetCode-GFG/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2888-minimum-index-of-a-valid-split](https://github.com/jenishk20/LeetCode-GFG/tree/master/2888-minimum-index-of-a-valid-split) |
+| [3001-apply-operations-to-maximize-score](https://github.com/jenishk20/LeetCode-GFG/tree/master/3001-apply-operations-to-maximize-score) |
 | [3219-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/jenishk20/LeetCode-GFG/tree/master/3219-make-lexicographically-smallest-array-by-swapping-elements) |
 | [3430-count-days-without-meetings](https://github.com/jenishk20/LeetCode-GFG/tree/master/3430-count-days-without-meetings) |
 | [3657-check-if-grid-can-be-cut-into-sections](https://github.com/jenishk20/LeetCode-GFG/tree/master/3657-check-if-grid-can-be-cut-into-sections) |
@@ -463,6 +466,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1909-buildings-with-an-ocean-view](https://github.com/jenishk20/LeetCode-GFG/tree/master/1909-buildings-with-an-ocean-view) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/jenishk20/LeetCode-GFG/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/jenishk20/LeetCode-GFG/tree/master/2456-construct-smallest-number-from-di-string) |
+| [3001-apply-operations-to-maximize-score](https://github.com/jenishk20/LeetCode-GFG/tree/master/3001-apply-operations-to-maximize-score) |
 | [3447-clear-digits](https://github.com/jenishk20/LeetCode-GFG/tree/master/3447-clear-digits) |
 ## Data Stream
 |  |
@@ -503,6 +507,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0253-meeting-rooms-ii](https://github.com/jenishk20/LeetCode-GFG/tree/master/0253-meeting-rooms-ii) |
 | [2354-minimum-health-to-beat-game](https://github.com/jenishk20/LeetCode-GFG/tree/master/2354-minimum-health-to-beat-game) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/jenishk20/LeetCode-GFG/tree/master/2456-construct-smallest-number-from-di-string) |
+| [3001-apply-operations-to-maximize-score](https://github.com/jenishk20/LeetCode-GFG/tree/master/3001-apply-operations-to-maximize-score) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/jenishk20/LeetCode-GFG/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 | [3751-maximum-frequency-after-subarray-operation](https://github.com/jenishk20/LeetCode-GFG/tree/master/3751-maximum-frequency-after-subarray-operation) |
 | [3764-maximum-sum-with-at-most-k-elements](https://github.com/jenishk20/LeetCode-GFG/tree/master/3764-maximum-sum-with-at-most-k-elements) |
@@ -557,6 +562,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [1585-the-kth-factor-of-n](https://github.com/jenishk20/LeetCode-GFG/tree/master/1585-the-kth-factor-of-n) |
 | [2610-closest-prime-numbers-in-range](https://github.com/jenishk20/LeetCode-GFG/tree/master/2610-closest-prime-numbers-in-range) |
+| [3001-apply-operations-to-maximize-score](https://github.com/jenishk20/LeetCode-GFG/tree/master/3001-apply-operations-to-maximize-score) |
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/jenishk20/LeetCode-GFG/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
 ## Divide and Conquer
 |  |
@@ -612,6 +618,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0042-trapping-rain-water](https://github.com/jenishk20/LeetCode-GFG/tree/master/0042-trapping-rain-water) |
 | [0883-car-fleet](https://github.com/jenishk20/LeetCode-GFG/tree/master/0883-car-fleet) |
 | [1909-buildings-with-an-ocean-view](https://github.com/jenishk20/LeetCode-GFG/tree/master/1909-buildings-with-an-ocean-view) |
+| [3001-apply-operations-to-maximize-score](https://github.com/jenishk20/LeetCode-GFG/tree/master/3001-apply-operations-to-maximize-score) |
 ## Queue
 |  |
 | ------- |
