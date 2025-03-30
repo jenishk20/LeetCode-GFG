@@ -323,6 +323,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0314-binary-tree-vertical-order-traversal](https://github.com/jenishk20/LeetCode-GFG/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0380-insert-delete-getrandom-o1](https://github.com/jenishk20/LeetCode-GFG/tree/master/0380-insert-delete-getrandom-o1) |
 | [0480-sliding-window-median](https://github.com/jenishk20/LeetCode-GFG/tree/master/0480-sliding-window-median) |
+| [0768-partition-labels](https://github.com/jenishk20/LeetCode-GFG/tree/master/0768-partition-labels) |
 | [0816-design-hashset](https://github.com/jenishk20/LeetCode-GFG/tree/master/0816-design-hashset) |
 | [0817-design-hashmap](https://github.com/jenishk20/LeetCode-GFG/tree/master/0817-design-hashmap) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/jenishk20/LeetCode-GFG/tree/master/0905-length-of-longest-fibonacci-subsequence) |
@@ -363,6 +364,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0344-reverse-string](https://github.com/jenishk20/LeetCode-GFG/tree/master/0344-reverse-string) |
 | [0647-palindromic-substrings](https://github.com/jenishk20/LeetCode-GFG/tree/master/0647-palindromic-substrings) |
 | [0657-robot-return-to-origin](https://github.com/jenishk20/LeetCode-GFG/tree/master/0657-robot-return-to-origin) |
+| [0768-partition-labels](https://github.com/jenishk20/LeetCode-GFG/tree/master/0768-partition-labels) |
 | [1146-greatest-common-divisor-of-strings](https://github.com/jenishk20/LeetCode-GFG/tree/master/1146-greatest-common-divisor-of-strings) |
 | [1160-letter-tile-possibilities](https://github.com/jenishk20/LeetCode-GFG/tree/master/1160-letter-tile-possibilities) |
 | [1170-shortest-common-supersequence](https://github.com/jenishk20/LeetCode-GFG/tree/master/1170-shortest-common-supersequence) |
@@ -408,6 +410,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0344-reverse-string](https://github.com/jenishk20/LeetCode-GFG/tree/master/0344-reverse-string) |
 | [0647-palindromic-substrings](https://github.com/jenishk20/LeetCode-GFG/tree/master/0647-palindromic-substrings) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/jenishk20/LeetCode-GFG/tree/master/0719-find-k-th-smallest-pair-distance) |
+| [0768-partition-labels](https://github.com/jenishk20/LeetCode-GFG/tree/master/0768-partition-labels) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/jenishk20/LeetCode-GFG/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2551-apply-operations-to-an-array](https://github.com/jenishk20/LeetCode-GFG/tree/master/2551-apply-operations-to-an-array) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/jenishk20/LeetCode-GFG/tree/master/2588-maximum-number-of-points-from-grid-queries) |
@@ -505,6 +508,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0045-jump-game-ii](https://github.com/jenishk20/LeetCode-GFG/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/jenishk20/LeetCode-GFG/tree/master/0055-jump-game) |
 | [0253-meeting-rooms-ii](https://github.com/jenishk20/LeetCode-GFG/tree/master/0253-meeting-rooms-ii) |
+| [0768-partition-labels](https://github.com/jenishk20/LeetCode-GFG/tree/master/0768-partition-labels) |
 | [2354-minimum-health-to-beat-game](https://github.com/jenishk20/LeetCode-GFG/tree/master/2354-minimum-health-to-beat-game) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/jenishk20/LeetCode-GFG/tree/master/2456-construct-smallest-number-from-di-string) |
 | [3001-apply-operations-to-maximize-score](https://github.com/jenishk20/LeetCode-GFG/tree/master/3001-apply-operations-to-maximize-score) |
