@@ -15,10 +15,6 @@ public:
             }
         }
 
-        for(auto it : ma){
-            cout<<it.first<<" "<<it.second.first<<" "<<it.second.second<<endl;
-        }
-
         vector<int>ans;
         int st = 0;
         int prevSt = ma[s[0]].first;
