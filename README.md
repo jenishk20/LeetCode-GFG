@@ -221,6 +221,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0189-rotate-array](https://github.com/jenishk20/LeetCode-GFG/tree/master/0189-rotate-array) |
 | [0380-insert-delete-getrandom-o1](https://github.com/jenishk20/LeetCode-GFG/tree/master/0380-insert-delete-getrandom-o1) |
 | [0504-base-7](https://github.com/jenishk20/LeetCode-GFG/tree/master/0504-base-7) |
+| [0910-nth-magical-number](https://github.com/jenishk20/LeetCode-GFG/tree/master/0910-nth-magical-number) |
 | [1146-greatest-common-divisor-of-strings](https://github.com/jenishk20/LeetCode-GFG/tree/master/1146-greatest-common-divisor-of-strings) |
 | [1477-product-of-the-last-k-numbers](https://github.com/jenishk20/LeetCode-GFG/tree/master/1477-product-of-the-last-k-numbers) |
 | [1585-the-kth-factor-of-n](https://github.com/jenishk20/LeetCode-GFG/tree/master/1585-the-kth-factor-of-n) |
@@ -428,6 +429,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/jenishk20/LeetCode-GFG/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/jenishk20/LeetCode-GFG/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [0792-binary-search](https://github.com/jenishk20/LeetCode-GFG/tree/master/0792-binary-search) |
+| [0910-nth-magical-number](https://github.com/jenishk20/LeetCode-GFG/tree/master/0910-nth-magical-number) |
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/jenishk20/LeetCode-GFG/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/jenishk20/LeetCode-GFG/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/jenishk20/LeetCode-GFG/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
