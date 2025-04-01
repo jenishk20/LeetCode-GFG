@@ -10,7 +10,6 @@ public:
             long long canGet = questions[i][0];
             long long toSkip = questions[i][1];
             if(i+toSkip+1<n){
-                cout<<i<<" "<<toSkip<<endl;
                 dp[i] = max(dp[i+1], canGet + dp[i+toSkip+1]);
             }
             else{
