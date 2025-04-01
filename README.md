@@ -65,6 +65,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2107-find-unique-binary-string](https://github.com/jenishk20/LeetCode-GFG/tree/master/2107-find-unique-binary-string) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/jenishk20/LeetCode-GFG/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/jenishk20/LeetCode-GFG/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
+| [2262-solving-questions-with-brainpower](https://github.com/jenishk20/LeetCode-GFG/tree/master/2262-solving-questions-with-brainpower) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/jenishk20/LeetCode-GFG/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2308-divide-array-into-equal-pairs](https://github.com/jenishk20/LeetCode-GFG/tree/master/2308-divide-array-into-equal-pairs) |
 | [2354-minimum-health-to-beat-game](https://github.com/jenishk20/LeetCode-GFG/tree/master/2354-minimum-health-to-beat-game) |
@@ -255,6 +256,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1170-shortest-common-supersequence](https://github.com/jenishk20/LeetCode-GFG/tree/master/1170-shortest-common-supersequence) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/jenishk20/LeetCode-GFG/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/jenishk20/LeetCode-GFG/tree/master/2090-number-of-ways-to-arrive-at-destination) |
+| [2262-solving-questions-with-brainpower](https://github.com/jenishk20/LeetCode-GFG/tree/master/2262-solving-questions-with-brainpower) |
 | [3142-longest-unequal-adjacent-groups-subsequence-ii](https://github.com/jenishk20/LeetCode-GFG/tree/master/3142-longest-unequal-adjacent-groups-subsequence-ii) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/jenishk20/LeetCode-GFG/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 | [3714-maximum-and-minimum-sums-of-at-most-size-k-subsequences](https://github.com/jenishk20/LeetCode-GFG/tree/master/3714-maximum-and-minimum-sums-of-at-most-size-k-subsequences) |
