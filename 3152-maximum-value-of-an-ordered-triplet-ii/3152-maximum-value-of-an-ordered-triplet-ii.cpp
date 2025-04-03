@@ -16,7 +16,6 @@ public:
         for(int i=2;i<n;i++){
             ans = max(ans,dp[i-1]*1ll*nums[i]);
         }
-
         return ans;
     }
 };
