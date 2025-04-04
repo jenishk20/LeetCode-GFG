@@ -11,30 +11,24 @@
  */
 class Solution {
 public:
-    int maxDepth = 0;
-    unordered_map<int,int>depth;
-    void recur(TreeNode *root,int d){
-        if(!root) return;
 
-        depth[root->val] = d;
-        maxDepth = max(maxDepth,d);
-        recur(root->left,d+1);
-        recur(root->right,d+1);
-    }
+    pair<TreeNode *,int> find(TreeNode *root){
+        if(!root) return {NULL,0};
 
-    TreeNode *lca(TreeNode *root){
-        if(!root) return root;
-        if(depth[root->val] == maxDepth) return root;
+        pair<TreeNode*,int> l = find(root->left);
+        pair<TreeNode*,int> r = find(root->right);
 
-        auto left = lca(root->left);
-        auto right = lca(root->right);
-
-        if(left and right) return root;
-        if(left) return left;
-        return right;
+        if(l.second == r.second){
+            return {root,l.second+1};
+        }
+        else if(l.second > r.second){
+            return {l.first,l.second+1};
+        }
+        else{
+            return {r.first,r.second+1};
+        }
     }
     TreeNode* lcaDeepestLeaves(TreeNode* root) {
-        recur(root,0);
-        return lca(root);
+        return find(root).first;
     }
 };
