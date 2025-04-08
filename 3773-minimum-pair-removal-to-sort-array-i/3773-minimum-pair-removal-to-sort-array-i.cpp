@@ -5,11 +5,6 @@ public:
         int cnt = 0;
 
         while(1){
-
-            for(auto it : nums){
-                cout<<it<<" ";
-            }
-            cout<<endl;
             if(is_sorted(nums.begin(),nums.end())){
                 return cnt;
             }
@@ -20,7 +15,6 @@ public:
             }
 
             sort(pairSums.begin(),pairSums.end(),[](pair<int,int>&a,pair<int,int>&b){
-
                 if(a.second == b.second) return a.first < b.first;
                 return a.second < b.second;
             });
